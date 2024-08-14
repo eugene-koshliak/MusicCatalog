@@ -1572,6 +1572,27 @@ PODS:
     - React-logger (= 0.76.0-nightly-20240801-TEMP)
     - React-perflogger (= 0.76.0-nightly-20240801-TEMP)
     - React-utils (= 0.76.0-nightly-20240801-TEMP)
+  - RNGestureHandler (2.18.1):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.01.01.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - RNScreens (3.34.0):
     - DoubleConversion
     - glog
@@ -1686,6 +1707,7 @@ DEPENDENCIES:
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -1821,6 +1843,8 @@ EXTERNAL SOURCES:
     :path: build/generated/ios
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNGestureHandler:
+    :path: "../node_modules/react-native-gesture-handler"
   RNScreens:
     :path: "../node_modules/react-native-screens"
   Yoga:
@@ -1890,6 +1914,7 @@ SPEC CHECKSUMS:
   React-utils: 8b0170097f5df533de07fe4b38ed22bebb597025
   ReactCodegen: 64cc00dabe3f8ed22573fe699598b492584dce26
   ReactCommon: 24e454d9932a8a83a1c99e84f12c74c4f884f686
+  RNGestureHandler: f769e1b9057085db07546aa3e259daa85c898dc7
   RNScreens: de6e57426ba0e6cbc3fb5b4f496e7f08cb2773c2
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
   Yoga: 1838bc4d9a4dea9286196ada9131467f7f91bd69

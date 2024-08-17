@@ -1,0 +1,1429 @@
+2024-08-16 13:36:37 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x2ad0366a0; archive(resolved)="<IDEArchive: 0x600091692400>", distributionTask(resolved)="2", distributionDestination(resolved)="2", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000271d7f80>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x600006801680; teamID='M8VAJHD5SP', teamName='Journey Technologies AS', teamType='Company', username='yevhen.koshliak@agilie.com', isFreeProvisioningTeam='0'>">
+	Chain (18, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x2ad0366a0; archive = "<IDEArchive: 0x600091692400>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000271d7f80>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006801680; teamID='M8VAJHD5SP', teamName='Journey Technologies AS', teamType='Company', username='yevhen.koshliak@agilie.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x2ad037450; archive = "<IDEArchive: 0x600091692400>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000271d7f80>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006801680; teamID='M8VAJHD5SP', teamName='Journey Technologies AS', teamType='Company', username='yevhen.koshliak@agilie.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2aab50810; archive = "<IDEArchive: 0x600091692400>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000271d7f80>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006801680; teamID='M8VAJHD5SP', teamName='Journey Technologies AS', teamType='Company', username='yevhen.koshliak@agilie.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2afa8eb40; archive = "<IDEArchive: 0x600091692400>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000271d7f80>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006801680; teamID='M8VAJHD5SP', teamName='Journey Technologies AS', teamType='Company', username='yevhen.koshliak@agilie.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2afa8e910; archive = "<IDEArchive: 0x600091692400>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000271d7f80>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006801680; teamID='M8VAJHD5SP', teamName='Journey Technologies AS', teamType='Company', username='yevhen.koshliak@agilie.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2ad054fe0; archive = "<IDEArchive: 0x600091692400>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000271d7f80>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006801680; teamID='M8VAJHD5SP', teamName='Journey Technologies AS', teamType='Company', username='yevhen.koshliak@agilie.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2ad0531a0; archive = "<IDEArchive: 0x600091692400>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000271d7f80>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006801680; teamID='M8VAJHD5SP', teamName='Journey Technologies AS', teamType='Company', username='yevhen.koshliak@agilie.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2afa8da10; archive = "<IDEArchive: 0x600091692400>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000271d7f80>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006801680; teamID='M8VAJHD5SP', teamName='Journey Technologies AS', teamType='Company', username='yevhen.koshliak@agilie.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x1325cea10; archive = "<IDEArchive: 0x600091692400>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000271d7f80>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006801680; teamID='M8VAJHD5SP', teamName='Journey Technologies AS', teamType='Company', username='yevhen.koshliak@agilie.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x1325d1040; archive = "<IDEArchive: 0x600091692400>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000271d7f80>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006801680; teamID='M8VAJHD5SP', teamName='Journey Technologies AS', teamType='Company', username='yevhen.koshliak@agilie.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x1325cd7c0; archive = "<IDEArchive: 0x600091692400>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000271d7f80>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006801680; teamID='M8VAJHD5SP', teamName='Journey Technologies AS', teamType='Company', username='yevhen.koshliak@agilie.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2ad5817d0; archive = "<IDEArchive: 0x600091692400>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000271d7f80>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006801680; teamID='M8VAJHD5SP', teamName='Journey Technologies AS', teamType='Company', username='yevhen.koshliak@agilie.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2aef41240; archive = "<IDEArchive: 0x600091692400>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000271d7f80>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006801680; teamID='M8VAJHD5SP', teamName='Journey Technologies AS', teamType='Company', username='yevhen.koshliak@agilie.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2aef3c820; archive = "<IDEArchive: 0x600091692400>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000271d7f80>", team="(null)">
+	<IDEDistributionContext: 0x2aea3ba80; archive = "<IDEArchive: 0x600091692400>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000271d7f80>", team="(null)">
+	<IDEDistributionContext: 0x2aef3ca90; archive = "<IDEArchive: 0x600091692400>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x2afa803b0; archive = "<IDEArchive: 0x600091692400>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x2ad562510; archive = "<IDEArchive: 0x600091692400>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x2ad0366a0>
+2024-08-16 13:36:37 +0000  Processing step: IDEDistributionCreateDestRootStep
+2024-08-16 13:36:37 +0000  Processing step: IDEDistributionCopyItemStep
+2024-08-16 13:36:37 +0000  Running /usr/bin/ditto '-V' '/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app' '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app'
+2024-08-16 13:36:37 +0000  >>> Copying /Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app 
+2024-08-16 13:36:37 +0000  copying file ./_CodeSignature/CodeResources ... 
+2024-08-16 13:36:37 +0000  15416 bytes for ./_CodeSignature/CodeResources
+2024-08-16 13:36:37 +0000  copying file ./FirebaseCore_Privacy.bundle/PrivacyInfo.xcprivacy ... 
+2024-08-16 13:36:37 +0000  855 bytes for ./FirebaseCore_Privacy.bundle/PrivacyInfo.xcprivacy
+2024-08-16 13:36:37 +0000  copying file ./FirebaseCore_Privacy.bundle/Info.plist ... 
+2024-08-16 13:36:37 +0000  788 bytes for ./FirebaseCore_Privacy.bundle/Info.plist
+2024-08-16 13:36:37 +0000  copying file ./Journey Admin Staging ... 
+2024-08-16 13:36:38 +0000  8333472 bytes for ./Journey Admin Staging
+2024-08-16 13:36:38 +0000  copying file ./RNFS_PrivacyInfo.bundle/PrivacyInfo.xcprivacy ... 
+840 bytes for ./RNFS_PrivacyInfo.bundle/PrivacyInfo.xcprivacy
+copying file ./RNFS_PrivacyInfo.bundle/Info.plist ... 
+779 bytes for ./RNFS_PrivacyInfo.bundle/Info.plist
+2024-08-16 13:36:38 +0000  copying file ./FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy ... 
+2024-08-16 13:36:38 +0000  373 bytes for ./FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy
+2024-08-16 13:36:38 +0000  copying file ./FBLPromises_Privacy.bundle/Info.plist ... 
+2024-08-16 13:36:38 +0000  784 bytes for ./FBLPromises_Privacy.bundle/Info.plist
+2024-08-16 13:36:38 +0000  copying file ./Sentry.bundle/PrivacyInfo.xcprivacy ... 
+2024-08-16 13:36:38 +0000  2108 bytes for ./Sentry.bundle/PrivacyInfo.xcprivacy
+2024-08-16 13:36:38 +0000  copying file ./Sentry.bundle/Info.plist ... 
+2024-08-16 13:36:38 +0000  757 bytes for ./Sentry.bundle/Info.plist
+2024-08-16 13:36:38 +0000  copying file ./AppIcon60x60@2x.png ... 
+2024-08-16 13:36:38 +0000  1234 bytes for ./AppIcon60x60@2x.png
+2024-08-16 13:36:38 +0000  copying file ./FirebaseCoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy ... 
+2024-08-16 13:36:38 +0000  855 bytes for ./FirebaseCoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy
+2024-08-16 13:36:38 +0000  copying file ./FirebaseCoreInternal_Privacy.bundle/Info.plist ... 
+2024-08-16 13:36:38 +0000  804 bytes for ./FirebaseCoreInternal_Privacy.bundle/Info.plist
+2024-08-16 13:36:38 +0000  copying file ./RNDeviceInfoPrivacyInfo.bundle/PrivacyInfo.xcprivacy ... 
+2024-08-16 13:36:38 +0000  1159 bytes for ./RNDeviceInfoPrivacyInfo.bundle/PrivacyInfo.xcprivacy
+2024-08-16 13:36:38 +0000  copying file ./RNDeviceInfoPrivacyInfo.bundle/Info.plist ... 
+2024-08-16 13:36:38 +0000  794 bytes for ./RNDeviceInfoPrivacyInfo.bundle/Info.plist
+2024-08-16 13:36:38 +0000  copying file ./nanopb_Privacy.bundle/PrivacyInfo.xcprivacy ... 
+2024-08-16 13:36:38 +0000  374 bytes for ./nanopb_Privacy.bundle/PrivacyInfo.xcprivacy
+2024-08-16 13:36:38 +0000  copying file ./nanopb_Privacy.bundle/Info.plist ... 
+2024-08-16 13:36:38 +0000  776 bytes for ./nanopb_Privacy.bundle/Info.plist
+2024-08-16 13:36:38 +0000  copying file ./AccessibilityResources.bundle/en.lproj/Localizable.strings ... 
+2024-08-16 13:36:38 +0000  518 bytes for ./AccessibilityResources.bundle/en.lproj/Localizable.strings
+2024-08-16 13:36:38 +0000  copying file ./AccessibilityResources.bundle/Info.plist ... 
+2024-08-16 13:36:38 +0000  791 bytes for ./AccessibilityResources.bundle/Info.plist
+2024-08-16 13:36:38 +0000  copying file ./GoogleService-Info.plist ... 
+2024-08-16 13:36:38 +0000  483 bytes for ./GoogleService-Info.plist
+2024-08-16 13:36:38 +0000  copying file ./Assets.car ... 
+2024-08-16 13:36:38 +0000  97631 bytes for ./Assets.car
+2024-08-16 13:36:38 +0000  copying file ./FirebaseInstallations_Privacy.bundle/PrivacyInfo.xcprivacy ... 
+2024-08-16 13:36:38 +0000  1105 bytes for ./FirebaseInstallations_Privacy.bundle/PrivacyInfo.xcprivacy
+copying file ./FirebaseInstallations_Privacy.bundle/Info.plist ... 
+2024-08-16 13:36:38 +0000  806 bytes for ./FirebaseInstallations_Privacy.bundle/Info.plist
+2024-08-16 13:36:38 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2024-08-16 13:36:38 +0000  1484 bytes for ./AppIcon76x76@2x~ipad.png
+2024-08-16 13:36:38 +0000  copying file ./GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy ... 
+2024-08-16 13:36:38 +0000  1289 bytes for ./GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy
+2024-08-16 13:36:38 +0000  copying file ./GoogleUtilities_Privacy.bundle/Info.plist ... 
+2024-08-16 13:36:38 +0000  793 bytes for ./GoogleUtilities_Privacy.bundle/Info.plist
+2024-08-16 13:36:38 +0000  copying file ./main.jsbundle ... 
+2024-08-16 13:36:38 +0000  10265144 bytes for ./main.jsbundle
+2024-08-16 13:36:38 +0000  copying file ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1637 bytes for ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+924 bytes for ./LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./LaunchScreen.storyboardc/Info.plist ... 
+2024-08-16 13:36:38 +0000  258 bytes for ./LaunchScreen.storyboardc/Info.plist
+2024-08-16 13:36:38 +0000  copying file ./Frameworks/hermes.framework/_CodeSignature/CodeResources ... 
+2024-08-16 13:36:38 +0000  1798 bytes for ./Frameworks/hermes.framework/_CodeSignature/CodeResources
+2024-08-16 13:36:38 +0000  copying file ./Frameworks/hermes.framework/hermes ... 
+2024-08-16 13:36:38 +0000  508276416 bytes for ./Frameworks/hermes.framework/hermes
+copying file ./Frameworks/hermes.framework/Info.plist ... 
+2024-08-16 13:36:38 +0000  815 bytes for ./Frameworks/hermes.framework/Info.plist
+copying file ./embedded.mobileprovision ... 
+19320 bytes for ./embedded.mobileprovision
+2024-08-16 13:36:38 +0000  copying file ./assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png ... 
+2024-08-16 13:36:38 +0000  761 bytes for ./assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png
+2024-08-16 13:36:38 +0000  copying file ./assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png ... 
+2024-08-16 13:36:38 +0000  405 bytes for ./assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png
+2024-08-16 13:36:38 +0000  copying file ./assets/node_modules/@react-navigation/elements/src/assets/back-icon.png ... 
+2024-08-16 13:36:38 +0000  290 bytes for ./assets/node_modules/@react-navigation/elements/src/assets/back-icon.png
+2024-08-16 13:36:38 +0000  copying file ./assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png ... 
+2024-08-16 13:36:38 +0000  913 bytes for ./assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png
+2024-08-16 13:36:38 +0000  copying file ./assets/node_modules/react-native-calendars/src/calendar/img/previous@2x.png ... 
+2024-08-16 13:36:38 +0000  458 bytes for ./assets/node_modules/react-native-calendars/src/calendar/img/previous@2x.png
+2024-08-16 13:36:38 +0000  copying file ./assets/node_modules/react-native-calendars/src/calendar/img/next@2x.png ... 
+2024-08-16 13:36:38 +0000  462 bytes for ./assets/node_modules/react-native-calendars/src/calendar/img/next@2x.png
+2024-08-16 13:36:38 +0000  copying file ./assets/node_modules/react-native-calendars/src/img/down@3x.png ... 
+2024-08-16 13:36:38 +0000  508 bytes for ./assets/node_modules/react-native-calendars/src/img/down@3x.png
+2024-08-16 13:36:38 +0000  copying file ./assets/node_modules/react-native-calendars/src/img/down@2x.png ... 
+2024-08-16 13:36:38 +0000  354 bytes for ./assets/node_modules/react-native-calendars/src/img/down@2x.png
+2024-08-16 13:36:38 +0000  copying file ./assets/node_modules/react-native-calendars/src/img/up.png ... 
+2024-08-16 13:36:38 +0000  215 bytes for ./assets/node_modules/react-native-calendars/src/img/up.png
+2024-08-16 13:36:38 +0000  copying file ./assets/node_modules/react-native-calendars/src/img/down.png ... 
+2024-08-16 13:36:38 +0000  208 bytes for ./assets/node_modules/react-native-calendars/src/img/down.png
+2024-08-16 13:36:38 +0000  copying file ./assets/node_modules/react-native-calendars/src/img/up@2x.png ... 
+2024-08-16 13:36:38 +0000  347 bytes for ./assets/node_modules/react-native-calendars/src/img/up@2x.png
+2024-08-16 13:36:38 +0000  copying file ./assets/node_modules/react-native-calendars/src/img/up@3x.png ... 
+2024-08-16 13:36:38 +0000  504 bytes for ./assets/node_modules/react-native-calendars/src/img/up@3x.png
+2024-08-16 13:36:38 +0000  copying file ./assets/src/assets/png/productPlaceholder.png ... 
+2024-08-16 13:36:38 +0000  975 bytes for ./assets/src/assets/png/productPlaceholder.png
+2024-08-16 13:36:38 +0000  copying file ./assets/src/assets/png/projectPlaceholder.png ... 
+2024-08-16 13:36:38 +0000  3740 bytes for ./assets/src/assets/png/projectPlaceholder.png
+2024-08-16 13:36:38 +0000  copying file ./Info.plist ... 
+2024-08-16 13:36:38 +0000  1765 bytes for ./Info.plist
+2024-08-16 13:36:38 +0000  copying file ./RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy ... 
+2024-08-16 13:36:38 +0000  512 bytes for ./RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy
+2024-08-16 13:36:38 +0000  copying file ./RNCAsyncStorage_resources.bundle/Info.plist ... 
+2024-08-16 13:36:38 +0000  797 bytes for ./RNCAsyncStorage_resources.bundle/Info.plist
+2024-08-16 13:36:38 +0000  copying file ./PkgInfo ... 
+2024-08-16 13:36:38 +0000  8 bytes for ./PkgInfo
+2024-08-16 13:36:38 +0000  /usr/bin/ditto exited with 0
+2024-08-16 13:36:38 +0000  Processing step: IDEDistributionEmbedProfileStep
+2024-08-16 13:36:38 +0000  Skipping profile for item: <IDEDistributionItem: 0x60009194a040; bundleID='dev.hermesengine.iphoneos', path='<DVTFilePath:0x600085c37880:'/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app/Frameworks/hermes.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000510e6170; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60006467c3c0; name='Apple Development: Yevhen Koshliak (6K785YZQ5H)', hash='8BABFCC15C22AF8605B7E73D2B19CB178710FBA8', serialNumber='309ADF072589030A8135970F53605B1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-29 12:58:19 +0000''>', entitlements='(null)', teamID='M8VAJHD5SP', identifier='dev.hermesengine.iphoneos', executablePath='<DVTFilePath:0x60006d8e5ea0:'/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app/Frameworks/hermes.framework/hermes'>', hardenedRuntime='0'>'>
+2024-08-16 13:36:38 +0000  Processing step: IDEDistributionInfoPlistStep
+2024-08-16 13:36:38 +0000  Skipping Info.plist step because item: <IDEDistributionItem: 0x60009194a040; bundleID='dev.hermesengine.iphoneos', path='<DVTFilePath:0x600085c37880:'/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app/Frameworks/hermes.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000510e6170; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000646749c0; name='Apple Development: Yevhen Koshliak (6K785YZQ5H)', hash='8BABFCC15C22AF8605B7E73D2B19CB178710FBA8', serialNumber='309ADF072589030A8135970F53605B1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-29 12:58:19 +0000''>', entitlements='(null)', teamID='M8VAJHD5SP', identifier='dev.hermesengine.iphoneos', executablePath='<DVTFilePath:0x60006d8e5ea0:'/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app/Frameworks/hermes.framework/hermes'>', hardenedRuntime='0'>'> is a framework or embedded in a framework.
+2024-08-16 13:36:38 +0000  Skipping setting DTXcodeBuildDistribution because toolsBuildVersionName was nil.
+2024-08-16 13:36:38 +0000  Processing step: IDEDistributionItemRemovalStep
+2024-08-16 13:36:38 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2024-08-16 13:36:38 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2024-08-16 13:36:38 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2024-08-16 13:36:38 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2024-08-16 13:36:38 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2024-08-16 13:36:38 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app/Frameworks/hermes.framework/hermes' '-r' '-keep_cs' '-o' '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app/Frameworks/hermes.framework/hermes'
+2024-08-16 13:36:38 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2024-08-16 13:36:38 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2024-08-16 13:36:38 +0000  Processing step: IDEDistributionSymbolsStep
+2024-08-16 13:36:38 +0000  Processing symbols for hermes.framework
+2024-08-16 13:36:38 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app/Frameworks/hermes.framework' '--link-dest' '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app/Frameworks' '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz'
+2024-08-16 13:36:38 +0000  building file list ... 
+2024-08-16 13:36:38 +0000   0 files...2024-08-16 13:36:38 +0000  5 files to consider
+2024-08-16 13:36:38 +0000  hermes.framework/
+2024-08-16 13:36:38 +0000  hermes.framework/_CodeSignature/
+rsync: link "/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/hermes.framework/_CodeSignature/CodeResources" => /var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app/Frameworks/hermes.framework/_CodeSignature/CodeResources failed: Operation not permitted (1)
+2024-08-16 13:36:38 +0000  hermes.framework/_CodeSignature/CodeResources
+2024-08-16 13:36:38 +0000  
+2024-08-16 13:36:38 +0000  sent 221 bytes  received 38 bytes  518.00 bytes/sec
+total size is 6.83M  speedup is 27637.08
+2024-08-16 13:36:38 +0000  /usr/bin/rsync exited with 0
+2024-08-16 13:36:38 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/dSYMs/' '--link-dest' '/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/dSYMs/' '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz'
+2024-08-16 13:36:38 +0000  building file list ... 
+2024-08-16 13:36:38 +0000   0 files...2024-08-16 13:36:38 +0000  10 files to consider
+2024-08-16 13:36:38 +0000  ./
+2024-08-16 13:36:38 +0000  Journey Admin Staging.app.dSYM/
+Journey Admin Staging.app.dSYM/Contents/
+Journey Admin Staging.app.dSYM/Contents/Resources/
+2024-08-16 13:36:38 +0000  Journey Admin Staging.app.dSYM/Contents/Resources/DWARF/
+Journey Admin Staging.app.dSYM/Contents/Resources/Relocations/
+Journey Admin Staging.app.dSYM/Contents/Resources/Relocations/aarch64/
+2024-08-16 13:36:38 +0000  
+sent 379 bytes  received 62 bytes  882.00 bytes/sec
+total size is 72.81M  speedup is 173110.98
+2024-08-16 13:36:38 +0000  /usr/bin/rsync exited with 0
+2024-08-16 13:36:38 +0000  Writing /var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Symbols/CF3FB7B9-A92E-31A8-B44F-3A08D561C32A.symbols
+2024-08-16 13:36:38 +0000  Processing symbols for Journey Admin Staging.app
+2024-08-16 13:36:38 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app' '--link-dest' '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload' '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz'
+2024-08-16 13:36:38 +0000  building file list ... 
+2024-08-16 13:36:38 +0000   0 files...2024-08-16 13:36:38 +0000  84 files to consider
+2024-08-16 13:36:38 +0000  Journey Admin Staging.app/
+2024-08-16 13:36:38 +0000  Journey Admin Staging.app/AccessibilityResources.bundle/
+Journey Admin Staging.app/AccessibilityResources.bundle/en.lproj/
+Journey Admin Staging.app/FBLPromises_Privacy.bundle/
+Journey Admin Staging.app/FirebaseCoreInternal_Privacy.bundle/
+2024-08-16 13:36:38 +0000  Journey Admin Staging.app/FirebaseCore_Privacy.bundle/
+Journey Admin Staging.app/FirebaseInstallations_Privacy.bundle/
+Journey Admin Staging.app/Frameworks/
+Journey Admin Staging.app/Frameworks/hermes.framework/
+Journey Admin Staging.app/Frameworks/hermes.framework/_CodeSignature/
+Journey Admin Staging.app/GoogleUtilities_Privacy.bundle/
+Journey Admin Staging.app/LaunchScreen.storyboardc/
+Journey Admin Staging.app/RNCAsyncStorage_resources.bundle/
+Journey Admin Staging.app/RNDeviceInfoPrivacyInfo.bundle/
+Journey Admin Staging.app/RNFS_PrivacyInfo.bundle/
+Journey Admin Staging.app/Sentry.bundle/
+Journey Admin Staging.app/_CodeSignature/
+Journey Admin Staging.app/assets/
+Journey Admin Staging.app/assets/node_modules/
+Journey Admin Staging.app/assets/node_modules/@react-navigation/
+Journey Admin Staging.app/assets/node_modules/@react-navigation/elements/
+Journey Admin Staging.app/assets/node_modules/@react-navigation/elements/src/
+Journey Admin Staging.app/assets/node_modules/@react-navigation/elements/src/assets/
+Journey Admin Staging.app/assets/node_modules/react-native-calendars/
+Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/
+Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/calendar/
+Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/calendar/img/
+Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/img/
+Journey Admin Staging.app/assets/src/
+Journey Admin Staging.app/assets/src/assets/
+Journey Admin Staging.app/assets/src/assets/png/
+Journey Admin Staging.app/nanopb_Privacy.bundle/
+2024-08-16 13:36:38 +0000  
+sent 2.82K bytes  received 212 bytes  6.06K bytes/sec
+total size is 24.72M  speedup is 8352.83
+2024-08-16 13:36:38 +0000  /usr/bin/rsync exited with 0
+2024-08-16 13:36:38 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/dSYMs/' '--link-dest' '/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/dSYMs/' '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz'
+2024-08-16 13:36:38 +0000  building file list ... 
+2024-08-16 13:36:38 +0000   0 files...2024-08-16 13:36:38 +0000  10 files to consider
+2024-08-16 13:36:38 +0000  ./
+2024-08-16 13:36:38 +0000  Journey Admin Staging.app.dSYM/
+Journey Admin Staging.app.dSYM/Contents/
+Journey Admin Staging.app.dSYM/Contents/Resources/
+Journey Admin Staging.app.dSYM/Contents/Resources/DWARF/
+Journey Admin Staging.app.dSYM/Contents/Resources/Relocations/
+Journey Admin Staging.app.dSYM/Contents/Resources/Relocations/aarch64/
+2024-08-16 13:36:38 +0000  
+2024-08-16 13:36:38 +0000  sent 397 bytes  received 80 bytes  954.00 bytes/sec
+total size is 72.81M  speedup is 160046.00
+2024-08-16 13:36:38 +0000  /usr/bin/rsync exited with 0
+2024-08-16 13:36:39 +0000  Writing /var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Symbols/6386AE71-F9DD-3375-9846-7D64254A216F.symbols
+2024-08-16 13:36:39 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2024-08-16 13:36:39 +0000  Processing step: IDEDistributionAppThinningStep
+2024-08-16 13:36:39 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2024-08-16 13:36:39 +0000  Processing step: IDEDistributionArchThinningStep
+2024-08-16 13:36:39 +0000  Item /Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app/Frameworks/hermes.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2024-08-16 13:36:39 +0000  Archs to thin for item /Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app/Frameworks/hermes.framework are ["arm64e"]
+2024-08-16 13:36:39 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app/Frameworks/hermes.framework/hermes' '-verify_arch' 'arm64e'
+2024-08-16 13:36:39 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2024-08-16 13:36:39 +0000  Skipping architecture thinning for item "hermes" because arch "arm64e" wasn't found
+2024-08-16 13:36:39 +0000  Item /Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2024-08-16 13:36:39 +0000  Archs to thin for item /Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app are ["arm64e"]
+2024-08-16 13:36:39 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app/Journey Admin Staging' '-verify_arch' 'arm64e'
+2024-08-16 13:36:39 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2024-08-16 13:36:39 +0000  Skipping architecture thinning for item "Journey Admin Staging" because arch "arm64e" wasn't found
+2024-08-16 13:36:39 +0000  Processing step: IDEDistributionODRStep
+2024-08-16 13:36:39 +0000  Processing step: IDEDistributionStripXattrsStep
+2024-08-16 13:36:39 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2024-08-16 13:36:39 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2024-08-16 13:36:39 +0000  Processing step: IDEDistributionCodesignStep
+2024-08-16 13:36:39 +0000  Entitlements for <IDEDistributionItem: 0x60009194a040; bundleID='dev.hermesengine.iphoneos', path='<DVTFilePath:0x600085c37880:'/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app/Frameworks/hermes.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000510e6170; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60005c932580; name='Apple Development: Yevhen Koshliak (6K785YZQ5H)', hash='8BABFCC15C22AF8605B7E73D2B19CB178710FBA8', serialNumber='309ADF072589030A8135970F53605B1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-29 12:58:19 +0000''>', entitlements='(null)', teamID='M8VAJHD5SP', identifier='dev.hermesengine.iphoneos', executablePath='<DVTFilePath:0x60006d8e5ea0:'/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app/Frameworks/hermes.framework/hermes'>', hardenedRuntime='0'>'>: {
+}
+2024-08-16 13:36:39 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2024-08-16 13:36:39 +0000  Entitlements for <IDEDistributionItem: 0x60009194a040; bundleID='dev.hermesengine.iphoneos', path='<DVTFilePath:0x600085c37880:'/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app/Frameworks/hermes.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000510e6170; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60005c932040; name='Apple Development: Yevhen Koshliak (6K785YZQ5H)', hash='8BABFCC15C22AF8605B7E73D2B19CB178710FBA8', serialNumber='309ADF072589030A8135970F53605B1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-29 12:58:19 +0000''>', entitlements='(null)', teamID='M8VAJHD5SP', identifier='dev.hermesengine.iphoneos', executablePath='<DVTFilePath:0x60006d8e5ea0:'/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app/Frameworks/hermes.framework/hermes'>', hardenedRuntime='0'>'> are: {
+}
+2024-08-16 13:36:39 +0000  Writing entitlements for <IDEDistributionItem: 0x60009194a040; bundleID='dev.hermesengine.iphoneos', path='<DVTFilePath:0x600085c37880:'/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app/Frameworks/hermes.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000510e6170; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60005c9321c0; name='Apple Development: Yevhen Koshliak (6K785YZQ5H)', hash='8BABFCC15C22AF8605B7E73D2B19CB178710FBA8', serialNumber='309ADF072589030A8135970F53605B1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-29 12:58:19 +0000''>', entitlements='(null)', teamID='M8VAJHD5SP', identifier='dev.hermesengine.iphoneos', executablePath='<DVTFilePath:0x60006d8e5ea0:'/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app/Frameworks/hermes.framework/hermes'>', hardenedRuntime='0'>'> to: /var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/entitlements~~~e0E84A
+2024-08-16 13:36:39 +0000  Sending request B640AC87-3AC2-4429-8633-A56CA977177B to <https://developerservices2.apple.com/services/QH65B2/listTeams.action?clientId=XABBG36SBA> for session <DVTServicesAccountBasedSession: 0x6000616d7180; account='<DVTAppleIDBasedDeveloperAccount: 0x600002b14700; username='yevhen.koshliak@agilie.com'>'>.
+Method: POST
+
+Headers:
+{
+    Accept = "text/x-xml-plist";
+    "Accept-Encoding" = "gzip, deflate";
+    "Content-Length" = 368;
+    "Content-Type" = "text/x-xml-plist";
+    "User-Agent" = Xcode;
+    "X-Apple-App-Info" = "com.apple.gs.xcode.auth";
+    "X-Apple-GS-Token" = "AAAABLwIAAAAAGZd2OARDWdzLnhjb2RlLmF1dGi9ALiO6ip1wJq8h3qh+3orfKbzMgHKSr7vTTGj989NegZU4g3CIxehtt85m0+1/kUn4jHb5IRfco9ooaeoImXDx2L1Afkr8wHbnKtjl/Kv24hIQr79oQiFEgk0Pbfs5Bvcjfsq6bqAS1Ut5kp0ZGq8onHj1rcY";
+    "X-Apple-I-Identity-Id" = "000820-08-4bbfca33-a03a-4f28-9694-854c00408b35";
+    "X-MMe-Client-Info" = "<Mac15,6> <macOS;14.3;23D56> <com.apple.AuthKit/1 (com.apple.dt.Xcode/22622)>";
+    "X-Mme-Device-Id" = "ADA14960-6A6F-5EE4-B0D9-8FE94BA45D33";
+    "X-Xcode-Version" = "15.4 (15F31d)";
+}
+
+Payload:
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>clientId</key>
+	<string>XABBG36SBA</string>
+	<key>protocolVersion</key>
+	<string>QH65B2</string>
+	<key>requestId</key>
+	<string>B640AC87-3AC2-4429-8633-A56CA977177B</string>
+</dict>
+</plist>
+2024-08-16 13:36:39 +0000  Received response for B640AC87-3AC2-4429-8633-A56CA977177B @ <https://developerservices2.apple.com/services/QH65B2/listTeams.action?clientId=XABBG36SBA>. Code = 0
+2024-08-16 13:36:39 +0000  Response payload: {
+    creationTimestamp = "2024-08-16T13:36:39Z";
+    protocolVersion = QH65B2;
+    requestId = "B640AC87-3AC2-4429-8633-A56CA977177B";
+    requestUrl = "https://developerservices2.apple.com:443/services/QH65B2/listTeams.action?clientId=XABBG36SBA";
+    responseId = "1adb22af-6fa7-46be-aec3-f2f6e5f80486";
+    resultCode = 0;
+    teams =     (
+                {
+            currentTeamMember =             {
+                developerStatus = active;
+                email = "yevhen.koshliak@agilie.com";
+                firstName = Yevhen;
+                lastName = Koshliak;
+                personId = 21100745299;
+                privileges =                 {
+                };
+                roles =                 (
+                    "TEAM_ADMIN",
+                    "MAC_PROGRAM_TEAM_ADMIN"
+                );
+                teamMemberId = 6K785YZQ5H;
+            };
+            dateCreated = "2021-12-28 13:26:40 +0000";
+            extendedTeamAttributes =             {
+            };
+            memberships =             (
+                                {
+                    dateExpire = "2024-12-28 23:59:00 +0000";
+                    dateStart = "2023-12-28 23:59:00 +0000";
+                    deleteDevicesOnExpiry = 0;
+                    inIosDeviceResetWindow = 1;
+                    inRenewalWindow = 0;
+                    membershipId = SF24QYZR8Y;
+                    membershipProductId = ad19;
+                    name = "Apple Developer Program";
+                    platform = ios;
+                    status = active;
+                },
+                                {
+                    dateExpire = "2024-12-28 23:59:00 +0000";
+                    dateStart = "2023-12-28 23:59:00 +0000";
+                    deleteDevicesOnExpiry = 0;
+                    inIosDeviceResetWindow = 1;
+                    inRenewalWindow = 0;
+                    membershipId = SF24QYZR8Y;
+                    membershipProductId = ad19;
+                    name = "Apple Developer Program";
+                    platform = mac;
+                    status = active;
+                },
+                                {
+                    dateExpire = "2024-12-28 23:59:00 +0000";
+                    dateStart = "2023-12-28 23:59:00 +0000";
+                    deleteDevicesOnExpiry = 0;
+                    inIosDeviceResetWindow = 1;
+                    inRenewalWindow = 0;
+                    membershipId = SF24QYZR8Y;
+                    membershipProductId = ad19;
+                    name = "Apple Developer Program";
+                    platform = safari;
+                    status = active;
+                }
+            );
+            name = "Journey Technologies AS";
+            status = active;
+            teamAgent =             {
+                developerStatus = active;
+                email = "m.viermyr@gmail.com";
+                firstName = Magnus;
+                lastName = Viermyr;
+                personId = 1936136030;
+                teamMemberId = F296UN3566;
+            };
+            teamId = M8VAJHD5SP;
+            teamProvisioningSettings =             {
+                canDeveloperRoleAddAppIds = 1;
+                canDeveloperRoleRegisterDevices = 1;
+                canDeveloperRoleUpdateAppIds = 1;
+            };
+            type = "Company/Organization";
+            xcodeFreeOnly = 0;
+        },
+                {
+            currentTeamMember =             {
+                developerStatus = active;
+                email = "yevhen.koshliak@agilie.com";
+                firstName = Yevhen;
+                lastName = Koshliak;
+                personId = 21100745299;
+                privileges =                 {
+                };
+                roles =                 (
+                    "XCODE_FREE_USER"
+                );
+                teamMemberId = 2MAHMC5JFF;
+            };
+            dateCreated = "2023-08-29 13:49:56 +0000";
+            extendedTeamAttributes =             {
+            };
+            memberships =             (
+                                {
+                    dateStart = "2023-08-29 13:49:56 +0000";
+                    deleteDevicesOnExpiry = 0;
+                    inIosDeviceResetWindow = 0;
+                    inRenewalWindow = 0;
+                    membershipId = 365V94Q2Q3;
+                    membershipProductId = fp22;
+                    name = "Xcode Free Provisioning Program";
+                    platform = ios;
+                    status = activeNeverExpire;
+                }
+            );
+            name = "Yevhen Koshliak";
+            status = active;
+            teamId = 4D8MBRKFWB;
+            teamProvisioningSettings =             {
+                canDeveloperRoleAddAppIds = 1;
+                canDeveloperRoleRegisterDevices = 1;
+                canDeveloperRoleUpdateAppIds = 1;
+            };
+            type = Individual;
+            xcodeFreeOnly = 0;
+        }
+    );
+    userLocale = "en_US";
+}
+
+2024-08-16 13:36:39 +0000  invoking codesign: <NSConcreteTask: 0x600055558fa0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    "-",
+    "--signature-size",
+    16000,
+    "--entitlements",
+    "/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/entitlements~~~e0E84A",
+    "--requirements",
+    "=designated => anchor apple generic and identifier \"dev.hermesengine.iphoneos\" and certificate leaf[subject.CN] = \"Apple Distribution: Journey Technologies AS (M8VAJHD5SP)\" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--omit-adhoc-flag",
+    "--team-identifier",
+    M8VAJHD5SP,
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app/Frameworks/hermes.framework"
+)'>
+2024-08-16 13:36:39 +0000  codesign output: /var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app/Frameworks/hermes.framework: replacing existing signature
+/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app/Frameworks/hermes.framework: signed bundle with Mach-O thin (arm64) [dev.hermesengine.iphoneos]
+2024-08-16 13:36:39 +0000  Remote code signing '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app/Frameworks/hermes.framework' with signature slices '[<DVTCodeSignatureSlice: 0x600053d7cba0; architecture='arm64', cmsDigest='<DVTCodeSignatureHash: 0x60003bb04980; digestAlgorithmDescription='sha256', cdHashHexEncoded='f084fbd0dd0af8e3cee8a87a623734c15d9f22542b55e8a2bab23676fb4e1810'>', codeSignatureHashes='{(
+    <DVTCodeSignatureHash: 0x60003bb04840; digestAlgorithmDescription='sha256', cdHashHexEncoded='f084fbd0dd0af8e3cee8a87a623734c15d9f22542b55e8a2bab23676fb4e1810'>
+)}', cmsHexEncoded=''>]' and configuration 'RemoteSigningToolConfiguration(path: <DVTFilePath:0x600085e68000:'/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app/Frameworks/hermes.framework'>, signingCertificate: <DVTSigningCertificate: 0x6000046f6580; name='Apple Distribution: Journey Technologies AS (M8VAJHD5SP)', hash='DBBB20CEFE515C9B2C482074758248FA286E4A92', serialNumber='6F5FD9CADCCB9ED41C28F87197271728', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-12-04 11:34:54 +0000''>, session: <DVTServicesAccountBasedSession: 0x6000616d7180; account='<DVTAppleIDBasedDeveloperAccount: 0x600002b14700; username='yevhen.koshliak@agilie.com'>'>, team: <DVTPortalTeam: 0x60000ec59000; name='Journey Technologies AS', teamID='M8VAJHD5SP', type='Company/Organization', memberships='(
+    "<DVTPortalMembership: 0x6000263e1260; programs='{(\n    <DVTPortalProgram: 0x600005031130; <DVTPortalProgram: 0x600005031130; identifier='Xcode.Portal.Program.iOS'>>\n)}'>",
+    "<DVTPortalMembership: 0x6000263e2160; programs='{(\n    <DVTPortalProgram: 0x60000503f4d0; <DVTPortalProgram: 0x60000503f4d0; identifier='Xcode.Portal.Program.Mac'>>\n)}'>"
+)'>, codeResourcesDictionary: [AnyHashable("rules"): {
+    "^.*" = 1;
+    "^.*\\.lproj/" =     {
+        optional = 1;
+        weight = 1000;
+    };
+    "^.*\\.lproj/locversion.plist$" =     {
+        omit = 1;
+        weight = 1100;
+    };
+    "^Base\\.lproj/" =     {
+        weight = 1010;
+    };
+    "^version.plist$" = 1;
+}, AnyHashable("files2"): {
+}, AnyHashable("rules2"): {
+    ".*\\.dSYM($|/)" =     {
+        weight = 11;
+    };
+    "^(.*/)?\\.DS_Store$" =     {
+        omit = 1;
+        weight = 2000;
+    };
+    "^.*" = 1;
+    "^.*\\.lproj/" =     {
+        optional = 1;
+        weight = 1000;
+    };
+    "^.*\\.lproj/locversion.plist$" =     {
+        omit = 1;
+        weight = 1100;
+    };
+    "^Base\\.lproj/" =     {
+        weight = 1010;
+    };
+    "^Info\\.plist$" =     {
+        omit = 1;
+        weight = 20;
+    };
+    "^PkgInfo$" =     {
+        omit = 1;
+        weight = 20;
+    };
+    "^embedded\\.provisionprofile$" =     {
+        weight = 20;
+    };
+    "^version\\.plist$" =     {
+        weight = 20;
+    };
+}, AnyHashable("files"): {
+    "Info.plist" = {length = 20, bytes = 0xaff23ef25fe5b11cb50373b529a55589d5b7445c};
+}], enableSignatureValidation: true)'
+2024-08-16 13:36:39 +0000  Sending request 45F6A87D-A2B4-46E0-9847-51E3FC8830F1 to <https://developerservices2.apple.com/services/v1/certificates> for session <DVTServicesAccountBasedSession: 0x6000616d7180; account='<DVTAppleIDBasedDeveloperAccount: 0x600002b14700; username='yevhen.koshliak@agilie.com'>'>.
+Method: POST
+
+Headers:
+{
+    Accept = "application/vnd.api+json";
+    "Accept-Encoding" = "gzip, deflate";
+    "Content-Length" = 104;
+    "Content-Type" = "application/vnd.api+json";
+    DSESSIONID = 3sh0i3ftq71tuifb82v0vjm09flbkan67u9uur2m6222h7gvd16;
+    "User-Agent" = Xcode;
+    "X-Apple-App-Info" = "com.apple.gs.xcode.auth";
+    "X-Apple-GS-Token" = "AAAABLwIAAAAAGZd2OARDWdzLnhjb2RlLmF1dGi9ALiO6ip1wJq8h3qh+3orfKbzMgHKSr7vTTGj989NegZU4g3CIxehtt85m0+1/kUn4jHb5IRfco9ooaeoImXDx2L1Afkr8wHbnKtjl/Kv24hIQr79oQiFEgk0Pbfs5Bvcjfsq6bqAS1Ut5kp0ZGq8onHj1rcY";
+    "X-Apple-I-Identity-Id" = "000820-08-4bbfca33-a03a-4f28-9694-854c00408b35";
+    "X-HTTP-Method-Override" = GET;
+    "X-MMe-Client-Info" = "<Mac15,6> <macOS;14.3;23D56> <com.apple.AuthKit/1 (com.apple.dt.Xcode/22622)>";
+    "X-Mme-Device-Id" = "ADA14960-6A6F-5EE4-B0D9-8FE94BA45D33";
+    "X-Xcode-Version" = "15.4 (15F31d)";
+}
+
+Payload:
+{"urlEncodedQueryParams":"teamId=M8VAJHD5SP&filter%5BcertificateType%5D=DISTRIBUTION_MANAGED&limit=200"}
+2024-08-16 13:36:39 +0000  Received response for 45F6A87D-A2B4-46E0-9847-51E3FC8830F1 @ <https://developerservices2.apple.com/services/v1/certificates>. Code = 0
+2024-08-16 13:36:39 +0000  Response payload: {
+  "data" : [ {
+    "type" : "certificates",
+    "id" : "XL75MA3PZ5",
+    "attributes" : {
+      "requesterEmail" : "oleksander.boiko@agilie.com",
+      "serialNumber" : "6F5FD9CADCCB9ED41C28F87197271728",
+      "certificateContent" : "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",
+      "displayName" : "Journey Technologies AS",
+      "requesterLastName" : "Boiko",
+      "csrContent" : null,
+      "machineName" : null,
+      "platform" : null,
+      "requesterFirstName" : "Alex",
+      "machineId" : null,
+      "name" : "Apple Distribution: Journey Technologies AS",
+      "responseId" : "33f53cce-230a-488e-9949-86ac34f841af",
+      "expirationDate" : "2024-12-03T11:34:53.000+00:00",
+      "certificateType" : "DISTRIBUTION_MANAGED"
+    },
+    "links" : {
+      "self" : "https://developerservices2.apple.com:443/services/v1/certificates/XL75MA3PZ5"
+    }
+  } ],
+  "links" : {
+    "self" : "https://developerservices2.apple.com:443/services/v1/certificates?filter%5BcertificateType%5D=DISTRIBUTION_MANAGED&limit=200"
+  },
+  "meta" : {
+    "paging" : {
+      "total" : 1,
+      "limit" : 200
+    }
+  }
+}
+
+2024-08-16 13:36:39 +0000  Sending request 2E4D9E97-C930-4461-A63B-C4A41363DCE2 to <https://developerservices3.apple.com/services/v1/batch> for session <DVTServicesAccountBasedSession: 0x6000616d7180; account='<DVTAppleIDBasedDeveloperAccount: 0x600002b14700; username='yevhen.koshliak@agilie.com'>'>.
+Method: POST
+
+Headers:
+{
+    Accept = "application/vnd.api+json";
+    "Accept-Encoding" = "gzip, deflate";
+    "Content-Length" = 429;
+    "Content-Type" = "application/vnd.api+json";
+    DSESSIONID = 3sh0i3ftq71tuifb82v0vjm09flbkan67u9uur2m6222h7gvd16;
+    "User-Agent" = Xcode;
+    "X-Apple-App-Info" = "com.apple.gs.xcode.auth";
+    "X-Apple-GS-Token" = "AAAABLwIAAAAAGZd2OARDWdzLnhjb2RlLmF1dGi9ALiO6ip1wJq8h3qh+3orfKbzMgHKSr7vTTGj989NegZU4g3CIxehtt85m0+1/kUn4jHb5IRfco9ooaeoImXDx2L1Afkr8wHbnKtjl/Kv24hIQr79oQiFEgk0Pbfs5Bvcjfsq6bqAS1Ut5kp0ZGq8onHj1rcY";
+    "X-Apple-I-Identity-Id" = "000820-08-4bbfca33-a03a-4f28-9694-854c00408b35";
+    "X-MMe-Client-Info" = "<Mac15,6> <macOS;14.3;23D56> <com.apple.AuthKit/1 (com.apple.dt.Xcode/22622)>";
+    "X-Mme-Device-Id" = "ADA14960-6A6F-5EE4-B0D9-8FE94BA45D33";
+    "X-Xcode-Version" = "15.4 (15F31d)";
+}
+
+Payload:
+{"data":{"type":"batch","attributes":{"resourceList":[{"data":{"type":"codeSignatures","relationships":{"certificate":{"data":{"id":"XL75MA3PZ5","type":"certificates"}}},"attributes":{"cdHashSha256":"F084FBD0DD0AF8E3CEE8A87A623734C15D9F22542B55E8A2BAB23676FB4E1810","name":"0","teamId":"M8VAJHD5SP","digestHash":"F084FBD0DD0AF8E3CEE8A87A623734C15D9F22542B55E8A2BAB23676FB4E1810"}}}],"resourceVersion":"1","teamId":"M8VAJHD5SP"}}}
+2024-08-16 13:36:40 +0000  Received response for 2E4D9E97-C930-4461-A63B-C4A41363DCE2 @ <https://developerservices3.apple.com/services/v1/batch>. Code = 0
+2024-08-16 13:36:40 +0000  Response payload: {
+  "data" : {
+    "type" : "batch",
+    "id" : "b79907e4-fd53-4da2-8c23-66a8218bb1dc",
+    "attributes" : {
+      "responseId" : "b79907e4-fd53-4da2-8c23-66a8218bb1dc",
+      "resourceList" : [ {
+        "type" : "codeSignatures",
+        "id" : "015e7bae-832d-467a-b523-9a1b74a73273",
+        "attributes" : {
+          "digestHash" : "F084FBD0DD0AF8E3CEE8A87A623734C15D9F22542B55E8A2BAB23676FB4E1810",
+          "cdHashSha256" : "F084FBD0DD0AF8E3CEE8A87A623734C15D9F22542B55E8A2BAB23676FB4E1810",
+          "signature" : "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",
+          "name" : "0",
+          "responseId" : "b79907e4-fd53-4da2-8c23-66a8218bb1dc",
+          "cmsSignature" : "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",
+          "timestamp" : false
+        },
+        "relationships" : {
+          "bundleId" : {
+            "data" : null,
+            "links" : {
+              "self" : {
+                "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/015e7bae-832d-467a-b523-9a1b74a73273/relationships/bundleId"
+              },
+              "related" : {
+                "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/015e7bae-832d-467a-b523-9a1b74a73273/bundleId"
+              }
+            }
+          },
+          "certificate" : {
+            "data" : {
+              "type" : "certificates",
+              "id" : "XL75MA3PZ5"
+            },
+            "links" : {
+              "self" : {
+                "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/015e7bae-832d-467a-b523-9a1b74a73273/relationships/certificate"
+              },
+              "related" : {
+                "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/015e7bae-832d-467a-b523-9a1b74a73273/certificate"
+              }
+            }
+          }
+        },
+        "links" : {
+          "self" : {
+            "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/015e7bae-832d-467a-b523-9a1b74a73273"
+          }
+        }
+      } ],
+      "resourceVersion" : "1"
+    },
+    "links" : {
+      "self" : "https://developerservices3.apple.com:443/services/v1/batch/b79907e4-fd53-4da2-8c23-66a8218bb1dc"
+    }
+  },
+  "links" : {
+    "self" : "https://developerservices3.apple.com:443/services/v1/batch"
+  }
+}
+
+2024-08-16 13:36:40 +0000  Remote signature for /var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app/Frameworks/hermes.framework (arch: arm64) is MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCAMIIF7zCCBNegAwIBAgIQb1/ZytzLntQcKPhxlycXKDANBgkqhkiG9w0BAQsFADB1MUQwQgYDVQQDDDtBcHBsZSBXb3JsZHdpZGUgRGV2ZWxvcGVyIFJlbGF0aW9ucyBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTELMAkGA1UECwwCRzMxEzARBgNVBAoMCkFwcGxlIEluYy4xCzAJBgNVBAYTAlVTMB4XDTIzMTIwNDExMzQ1NFoXDTI0MTIwMzExMzQ1M1owgaMxGjAYBgoJkiaJk/IsZAEBDApNOFZBSkhENVNQMUEwPwYDVQQDDDhBcHBsZSBEaXN0cmlidXRpb246IEpvdXJuZXkgVGVjaG5vbG9naWVzIEFTIChNOFZBSkhENVNQKTETMBEGA1UECwwKTThWQUpIRDVTUDEgMB4GA1UECgwXSm91cm5leSBUZWNobm9sb2dpZXMgQVMxCzAJBgNVBAYTAlVTMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4lTaLFYezj4ov6oM3KrkX48zp47gFQtKCBmtlVf8X6IJr0FJfA7OXJMe4rebcMl5d2hXS2eii0eYN+9K5LiUgBTQSTPOtVKmVWL5CkhRbEqi6J8kt+b9yEp0kXfveAqbaUSUSLwh7Wd08NqcUg53/ossFTn+9sJlMbnyD8XIlV5AeXFW2fBdBLZuPE6GO1OZtrx2zc5qnSVDcaN0hxSQJzVRR2MUdrQaQX31Sqv4CaWpje3XS4PbSwy5nxkbt4kNa6vFqb/Tt4/9x8j4PsM/bpSjshBBZs01jYrlK15+6OXfML0Gg6TZHx/0cqNOkbma9VPUCM5/q30F+K27RkaO6QIDAQABo4ICSjCCAkYwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBQJ/sAVkPmvZAqSErkmKGMMl+ynsjBwBggrBgEFBQcBAQRkMGIwLQYIKwYBBQUHMAKGIWh0dHA6Ly9jZXJ0cy5hcHBsZS5jb20vd3dkcmczLmRlcjAxBggrBgEFBQcwAYYlaHR0cDovL29jc3AuYXBwbGUuY29tL29jc3AwMy13d2RyZzMxMTCCAR4GA1UdIASCARUwggERMIIBDQYJKoZIhvdjZAUBMIH/MIHDBggrBgEFBQcCAjCBtgyBs1JlbGlhbmNlIG9uIHRoaXMgY2VydGlmaWNhdGUgYnkgYW55IHBhcnR5IGFzc3VtZXMgYWNjZXB0YW5jZSBvZiB0aGUgdGhlbiBhcHBsaWNhYmxlIHN0YW5kYXJkIHRlcm1zIGFuZCBjb25kaXRpb25zIG9mIHVzZSwgY2VydGlmaWNhdGUgcG9saWN5IGFuZCBjZXJ0aWZpY2F0aW9uIHByYWN0aWNlIHN0YXRlbWVudHMuMDcGCCsGAQUFBwIBFitodHRwczovL3d3dy5hcHBsZS5jb20vY2VydGlmaWNhdGVhdXRob3JpdHkvMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMDMB0GA1UdDgQWBBR4D99FykDsQOyAiiUjvEud6ylIIzAOBgNVHQ8BAf8EBAMCB4AwEwYKKoZIhvdjZAYBBwEB/wQCBQAwEAYKKoZIhvdjZAYBIAQCBQAwEwYKKoZIhvdjZAYBBAEB/wQCBQAwDQYJKoZIhvcNAQELBQADggEBAGJJr0CW6SPKuBf/Bk0MHgUm5rKv6rR0KzTPba663a/HtRj3mhAC2JlWnY5fs2ezlAlwWaYa7HJkUdLHISwiFkx0tnl9wNGgSosZovi25uDZ8WOsggS6GKbSlfxGkwk6yoZyS/aPqruzo+W66k/Fsvurw+LbjSngqaQct+Bd9zi0m53vCqP30ts53+yvuYoXEp/zkosHHe6n8aVrdhdDGSMKsVWE9g4gzcbKMdezYcnDoYumLceXE1enRyuEFmkRiWV6bvkOrzY+L6SWVn3Z0EJQNPr25MHbzUm7tmufhzDwsjufc5GD8dxoeJOVvNolxbn8deizzHrTzLr9gDW3Tv0wggRRMIIDOaADAgECAhB8r2kKJbc5/nubRHrBeMXuMA0GCSqGSIb3DQEBCwUAMGIxCzAJBgNVBAYTAlVTMRMwEQYDVQQKEwpBcHBsZSBJbmMuMSYwJAYDVQQLEx1BcHBsZSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTEWMBQGA1UEAxMNQXBwbGUgUm9vdCBDQTAeFw0yMDAyMTkxODEzNDdaFw0zMDAyMjAwMDAwMDBaMHUxRDBCBgNVBAMMO0FwcGxlIFdvcmxkd2lkZSBEZXZlbG9wZXIgUmVsYXRpb25zIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MQswCQYDVQQLDAJHMzETMBEGA1UECgwKQXBwbGUgSW5jLjELMAkGA1UEBhMCVVMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDY9Yn8qFkLh8dMkS4tVpDTeB2kMOmlSO8LQ78thPskXUUb5etZNhJcVGSebGIttMaXysw89tYGkfzlAqYcarR51WfLrOk/BxHhhLxHHWaOOaLotEntOtLhEGB6jpOMysDaDMCD0OP5kdanjMjBc+KuRtFinZKokGA3fWiWzY3g/Jv6eLvje68tF91b/oBZI3UXuBLB7RvlNM7+IrWeSbDlVb+PhKI8qLrFhpUW5ADJnwPQzLM6FnvWBVyd60euDbUtjA5pTUDQS0w7BJ6NIbGsLkNUMM7BioaUmEvfag0//vscrpcXwngKMOBfH1Q7SbclABo3gtJWl6VSSXxgOJvvAgMBAAGjge8wgewwEgYDVR0TAQH/BAgwBgEB/wIBADAfBgNVHSMEGDAWgBQr0GlHlHYJ/vRrjS5ApvdHTX8IXjBEBggrBgEFBQcBAQQ4MDYwNAYIKwYBBQUHMAGGKGh0dHA6Ly9vY3NwLmFwcGxlLmNvbS9vY3NwMDMtYXBwbGVyb290Y2EwLgYDVR0fBCcwJTAjoCGgH4YdaHR0cDovL2NybC5hcHBsZS5jb20vcm9vdC5jcmwwHQYDVR0OBBYEFAn+wBWQ+a9kCpISuSYoYwyX7KeyMA4GA1UdDwEB/wQEAwIBBjAQBgoqhkiG92NkBgIBBAIFADANBgkqhkiG9w0BAQsFAAOCAQEArWUT6PbggXdEAkdCvl+lOSDqYqn9xZDJcxPVnpvQqg+NjcvtAc9sKEBbx1UkQfj8z8G1I+nc7PFvyoAdd8LEYUklZ68PyjklrdPjeswzKA0OLqFXQHP65lyuBlEp7eOFDE9h3DIWi3fQRMpdcgMxRpyum0Aa+vTg0z76L4xmn5fEVFnv0kj0B5lJYFkZx92U0cDBbH94Ie8M6ztsmYJLUmA4tTmCbexSMVO+D5FMSUl0j6ZRy4RHTh11J269+dJc83/CbAsJNuJk5MI3AxQZ1epqlKqp2/72mghni+8ruKoXSYOvz8u86c/qlXGwtEWizOWHqgrDQTp5XNpQNJ2VOzCCBLswggOjoAMCAQICAQIwDQYJKoZIhvcNAQEFBQAwYjELMAkGA1UEBhMCVVMxEzARBgNVBAoTCkFwcGxlIEluYy4xJjAkBgNVBAsTHUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRYwFAYDVQQDEw1BcHBsZSBSb290IENBMB4XDTA2MDQyNTIxNDAzNloXDTM1MDIwOTIxNDAzNlowYjELMAkGA1UEBhMCVVMxEzARBgNVBAoTCkFwcGxlIEluYy4xJjAkBgNVBAsTHUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRYwFAYDVQQDEw1BcHBsZSBSb290IENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5JGpCR+R2x5HUOsF7V55hC3rNqJXTFXsixmJ3vlLbPUHqyIwAugYPvhQCdN/QaiY+dHKZpwkaxHQo7vkGyrDH5WeegykR4tb1BY3M8vED03OFGnRyRly9V0O1X9fm/IlA7pVj01dDfFkNSMVSxVZHbOU9/acns9QusFYUGePCLQg98usLCBvcLY/ATCMt0PPD5098ytJKBrI/s61uQ7ZXhzWyz21Oq30Dw4AkguxIRYudNU8DdtiFqujcZJHU1XBry9Bs/j743DN5qNMRX4fTGtQlkGJxHRiCxCDQYczioGxMFjsWgQyjGizjx3eZXP/Z15lvEnYdp8zFGWhd5TJLQIDAQABo4IBejCCAXYwDgYDVR0PAQH/BAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFCvQaUeUdgn+9GuNLkCm90dNfwheMB8GA1UdIwQYMBaAFCvQaUeUdgn+9GuNLkCm90dNfwheMIIBEQYDVR0gBIIBCDCCAQQwggEABgkqhkiG92NkBQEwgfIwKgYIKwYBBQUHAgEWHmh0dHBzOi8vd3d3LmFwcGxlLmNvbS9hcHBsZWNhLzCBwwYIKwYBBQUHAgIwgbYagbNSZWxpYW5jZSBvbiB0aGlzIGNlcnRpZmljYXRlIGJ5IGFueSBwYXJ0eSBhc3N1bWVzIGFjY2VwdGFuY2Ugb2YgdGhlIHRoZW4gYXBwbGljYWJsZSBzdGFuZGFyZCB0ZXJtcyBhbmQgY29uZGl0aW9ucyBvZiB1c2UsIGNlcnRpZmljYXRlIHBvbGljeSBhbmQgY2VydGlmaWNhdGlvbiBwcmFjdGljZSBzdGF0ZW1lbnRzLjANBgkqhkiG9w0BAQUFAAOCAQEAXDaZTC14t+2Mm9zzd5vydtJ3ME/BH4WDhRuZPUc38qmbQI4s1LGQEti+9HOb7tJkD8t5TzTYoj75eP9ryAfsfTmDi1Mg0zjEsb+aTwpr/yv8WacFCXwXQFYRHnTTt4sjO0ej1W8k4uvRt3DfD0XhJ8rxbXjt57UXF6jcfiI1yiXV2Q/Wa9SiJCMR96Gsj3OBYMYbWwkvkrL4REjwYDieFfU9JmcgijNq9w2Cz97roy/5U2pbZMBjM3f3OgcsVuvaDyEO2rpzGU+12TZ/wYdV2aeZuTJC+9jVcZ5+oVK3G72TQiQSKscPHbZNnF5jyEuAF1CqitXa5PzQCQc3sHV1IQAAMYIDYjCCA14CAQEwgYkwdTFEMEIGA1UEAww7QXBwbGUgV29ybGR3aWRlIERldmVsb3BlciBSZWxhdGlvbnMgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkxCzAJBgNVBAsMAkczMRMwEQYDVQQKDApBcHBsZSBJbmMuMQswCQYDVQQGEwJVUwIQb1/ZytzLntQcKPhxlycXKDANBglghkgBZQMEAgEFAKCCAakwGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjQwODE2MTMzNjQwWjAvBgkqhkiG9w0BCQQxIgQg8IT70N0K+OPO6Kh6Yjc0wV2fIlQrVeiiurI2dvtOGBAwPAYJKoZIhvdjZAkCMS8wLQYJYIZIAWUDBAIBBCDwhPvQ3Qr4487oqHpiNzTBXZ8iVCtV6KK6sjZ2+04YEDCB/wYJKoZIhvdjZAkBMYHxBIHuPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+Y2RoYXNoZXM8L2tleT4KCTxhcnJheT4KCQk8ZGF0YT4KCQk4SVQ3ME4wSytPUE82S2g2WWpjMHdWMmZJbFE9CgkJPC9kYXRhPgoJPC9hcnJheT4KPC9kaWN0Pgo8L3BsaXN0PjANBgkqhkiG9w0BAQsFAASCAQA5OHbKJqKeWi1vA1zDe6yi77DB9lY/sKIfor1F2HMFeccG2UfiLg5lAuKVqbAt6pZ+lO+/oY1UQ0L2WzkuSnHD9DP/fyftplmekb3W1XAUnTgPnU/TZcxFgBw87Ls7VZnjw6Z5mWOUPSQ/Kz6El2U8bOeQo/NMpXoNDKsjDQKz8AcsjezRyerOwDUU1BG88U2Pg8z1M7WSCjxzDHuQ/jXszylbXHi9HhjZyFWerL9+0iSlWBBhrd77+YeFVMgGmmADuRrglMu5C1vu1M4mkKC5+yabkpsn9jyQaqkdoyRZtqSi4UxHLgJ2wUduxfavPU89A1PFw/uAo6llC2yUZPN8AAAAAAAA
+2024-08-16 13:36:40 +0000  invoking codesign: <NSConcreteTask: 0x600051234000; launchPath='/usr/bin/codesign', arguments='(
+    "-e",
+    "--edit-cms",
+    "/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/cms~~~KZ2dzY",
+    "/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app/Frameworks/hermes.framework"
+)'>
+2024-08-16 13:36:40 +0000  codesign output: 
+2024-08-16 13:36:40 +0000  Entitlements for <IDEDistributionItem: 0x600091935ec0; bundleID='app.dev.journey.admin', path='<DVTFilePath:0x60008058b5c0:'/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60004d0e75c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60005c932580; name='Apple Development: Yevhen Koshliak (6K785YZQ5H)', hash='8BABFCC15C22AF8605B7E73D2B19CB178710FBA8', serialNumber='309ADF072589030A8135970F53605B1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-29 12:58:19 +0000''>', entitlements='{
+    "application-identifier" = "M8VAJHD5SP.app.dev.journey.admin";
+    "com.apple.developer.associated-domains" =     (
+        "applinks:admin.journeyapp.dev.scrij.com"
+    );
+    "com.apple.developer.team-identifier" = M8VAJHD5SP;
+    "get-task-allow" = 1;
+}', teamID='M8VAJHD5SP', identifier='app.dev.journey.admin', executablePath='<DVTFilePath:0x600084278d20:'/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app/Journey Admin Staging'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "M8VAJHD5SP.app.dev.journey.admin";
+    "beta-reports-active" = 1;
+    "com.apple.developer.associated-domains" =     (
+        "applinks:admin.journeyapp.dev.scrij.com"
+    );
+    "com.apple.developer.team-identifier" = M8VAJHD5SP;
+    "get-task-allow" = 0;
+}
+2024-08-16 13:36:40 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2024-08-16 13:36:40 +0000  Entitlements for <IDEDistributionItem: 0x600091935ec0; bundleID='app.dev.journey.admin', path='<DVTFilePath:0x60008058b5c0:'/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60004d0e75c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60005c932040; name='Apple Development: Yevhen Koshliak (6K785YZQ5H)', hash='8BABFCC15C22AF8605B7E73D2B19CB178710FBA8', serialNumber='309ADF072589030A8135970F53605B1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-29 12:58:19 +0000''>', entitlements='{
+    "application-identifier" = "M8VAJHD5SP.app.dev.journey.admin";
+    "com.apple.developer.associated-domains" =     (
+        "applinks:admin.journeyapp.dev.scrij.com"
+    );
+    "com.apple.developer.team-identifier" = M8VAJHD5SP;
+    "get-task-allow" = 1;
+}', teamID='M8VAJHD5SP', identifier='app.dev.journey.admin', executablePath='<DVTFilePath:0x600084278d20:'/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app/Journey Admin Staging'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "M8VAJHD5SP.app.dev.journey.admin";
+    "beta-reports-active" = 1;
+    "com.apple.developer.associated-domains" =     (
+        "applinks:admin.journeyapp.dev.scrij.com"
+    );
+    "com.apple.developer.team-identifier" = M8VAJHD5SP;
+    "get-task-allow" = 0;
+}
+2024-08-16 13:36:40 +0000  Writing entitlements for <IDEDistributionItem: 0x600091935ec0; bundleID='app.dev.journey.admin', path='<DVTFilePath:0x60008058b5c0:'/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60004d0e75c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60005c9321c0; name='Apple Development: Yevhen Koshliak (6K785YZQ5H)', hash='8BABFCC15C22AF8605B7E73D2B19CB178710FBA8', serialNumber='309ADF072589030A8135970F53605B1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-29 12:58:19 +0000''>', entitlements='{
+    "application-identifier" = "M8VAJHD5SP.app.dev.journey.admin";
+    "com.apple.developer.associated-domains" =     (
+        "applinks:admin.journeyapp.dev.scrij.com"
+    );
+    "com.apple.developer.team-identifier" = M8VAJHD5SP;
+    "get-task-allow" = 1;
+}', teamID='M8VAJHD5SP', identifier='app.dev.journey.admin', executablePath='<DVTFilePath:0x600084278d20:'/Users/evgen/Library/Developer/Xcode/Archives/2024-08-16/Journey Admin Staging 16.08.2024, 16.36.xcarchive/Products/Applications/Journey Admin Staging.app/Journey Admin Staging'>', hardenedRuntime='0'>'> to: /var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/entitlements~~~Nupfv5
+2024-08-16 13:36:40 +0000  Sending request 09B6A66A-2070-4E95-8D98-5B09CA098B6E to <https://developerservices2.apple.com/services/QH65B2/listTeams.action?clientId=XABBG36SBA> for session <DVTServicesAccountBasedSession: 0x6000919280c0; account='<DVTAppleIDBasedDeveloperAccount: 0x600002b14700; username='yevhen.koshliak@agilie.com'>'>.
+Method: POST
+
+Headers:
+{
+    Accept = "text/x-xml-plist";
+    "Accept-Encoding" = "gzip, deflate";
+    "Content-Length" = 368;
+    "Content-Type" = "text/x-xml-plist";
+    "User-Agent" = Xcode;
+    "X-Apple-App-Info" = "com.apple.gs.xcode.auth";
+    "X-Apple-GS-Token" = "AAAABLwIAAAAAGZd2OARDWdzLnhjb2RlLmF1dGi9ALiO6ip1wJq8h3qh+3orfKbzMgHKSr7vTTGj989NegZU4g3CIxehtt85m0+1/kUn4jHb5IRfco9ooaeoImXDx2L1Afkr8wHbnKtjl/Kv24hIQr79oQiFEgk0Pbfs5Bvcjfsq6bqAS1Ut5kp0ZGq8onHj1rcY";
+    "X-Apple-I-Identity-Id" = "000820-08-4bbfca33-a03a-4f28-9694-854c00408b35";
+    "X-MMe-Client-Info" = "<Mac15,6> <macOS;14.3;23D56> <com.apple.AuthKit/1 (com.apple.dt.Xcode/22622)>";
+    "X-Mme-Device-Id" = "ADA14960-6A6F-5EE4-B0D9-8FE94BA45D33";
+    "X-Xcode-Version" = "15.4 (15F31d)";
+}
+
+Payload:
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>clientId</key>
+	<string>XABBG36SBA</string>
+	<key>protocolVersion</key>
+	<string>QH65B2</string>
+	<key>requestId</key>
+	<string>09B6A66A-2070-4E95-8D98-5B09CA098B6E</string>
+</dict>
+</plist>
+2024-08-16 13:36:41 +0000  Received response for 09B6A66A-2070-4E95-8D98-5B09CA098B6E @ <https://developerservices2.apple.com/services/QH65B2/listTeams.action?clientId=XABBG36SBA>. Code = 0
+2024-08-16 13:36:41 +0000  Response payload: {
+    creationTimestamp = "2024-08-16T13:36:41Z";
+    protocolVersion = QH65B2;
+    requestId = "09B6A66A-2070-4E95-8D98-5B09CA098B6E";
+    requestUrl = "https://developerservices2.apple.com:443/services/QH65B2/listTeams.action?clientId=XABBG36SBA";
+    responseId = "d83b3d15-6cb0-4d81-9836-6d57c0fe3be0";
+    resultCode = 0;
+    teams =     (
+                {
+            currentTeamMember =             {
+                developerStatus = active;
+                email = "yevhen.koshliak@agilie.com";
+                firstName = Yevhen;
+                lastName = Koshliak;
+                personId = 21100745299;
+                privileges =                 {
+                };
+                roles =                 (
+                    "TEAM_ADMIN",
+                    "MAC_PROGRAM_TEAM_ADMIN"
+                );
+                teamMemberId = 6K785YZQ5H;
+            };
+            dateCreated = "2021-12-28 13:26:40 +0000";
+            extendedTeamAttributes =             {
+            };
+            memberships =             (
+                                {
+                    dateExpire = "2024-12-28 23:59:00 +0000";
+                    dateStart = "2023-12-28 23:59:00 +0000";
+                    deleteDevicesOnExpiry = 0;
+                    inIosDeviceResetWindow = 1;
+                    inRenewalWindow = 0;
+                    membershipId = SF24QYZR8Y;
+                    membershipProductId = ad19;
+                    name = "Apple Developer Program";
+                    platform = ios;
+                    status = active;
+                },
+                                {
+                    dateExpire = "2024-12-28 23:59:00 +0000";
+                    dateStart = "2023-12-28 23:59:00 +0000";
+                    deleteDevicesOnExpiry = 0;
+                    inIosDeviceResetWindow = 1;
+                    inRenewalWindow = 0;
+                    membershipId = SF24QYZR8Y;
+                    membershipProductId = ad19;
+                    name = "Apple Developer Program";
+                    platform = mac;
+                    status = active;
+                },
+                                {
+                    dateExpire = "2024-12-28 23:59:00 +0000";
+                    dateStart = "2023-12-28 23:59:00 +0000";
+                    deleteDevicesOnExpiry = 0;
+                    inIosDeviceResetWindow = 1;
+                    inRenewalWindow = 0;
+                    membershipId = SF24QYZR8Y;
+                    membershipProductId = ad19;
+                    name = "Apple Developer Program";
+                    platform = safari;
+                    status = active;
+                }
+            );
+            name = "Journey Technologies AS";
+            status = active;
+            teamAgent =             {
+                developerStatus = active;
+                email = "m.viermyr@gmail.com";
+                firstName = Magnus;
+                lastName = Viermyr;
+                personId = 1936136030;
+                teamMemberId = F296UN3566;
+            };
+            teamId = M8VAJHD5SP;
+            teamProvisioningSettings =             {
+                canDeveloperRoleAddAppIds = 1;
+                canDeveloperRoleRegisterDevices = 1;
+                canDeveloperRoleUpdateAppIds = 1;
+            };
+            type = "Company/Organization";
+            xcodeFreeOnly = 0;
+        },
+                {
+            currentTeamMember =             {
+                developerStatus = active;
+                email = "yevhen.koshliak@agilie.com";
+                firstName = Yevhen;
+                lastName = Koshliak;
+                personId = 21100745299;
+                privileges =                 {
+                };
+                roles =                 (
+                    "XCODE_FREE_USER"
+                );
+                teamMemberId = 2MAHMC5JFF;
+            };
+            dateCreated = "2023-08-29 13:49:56 +0000";
+            extendedTeamAttributes =             {
+            };
+            memberships =             (
+                                {
+                    dateStart = "2023-08-29 13:49:56 +0000";
+                    deleteDevicesOnExpiry = 0;
+                    inIosDeviceResetWindow = 0;
+                    inRenewalWindow = 0;
+                    membershipId = 365V94Q2Q3;
+                    membershipProductId = fp22;
+                    name = "Xcode Free Provisioning Program";
+                    platform = ios;
+                    status = activeNeverExpire;
+                }
+            );
+            name = "Yevhen Koshliak";
+            status = active;
+            teamId = 4D8MBRKFWB;
+            teamProvisioningSettings =             {
+                canDeveloperRoleAddAppIds = 1;
+                canDeveloperRoleRegisterDevices = 1;
+                canDeveloperRoleUpdateAppIds = 1;
+            };
+            type = Individual;
+            xcodeFreeOnly = 0;
+        }
+    );
+    userLocale = "en_US";
+}
+
+2024-08-16 13:36:41 +0000  invoking codesign: <NSConcreteTask: 0x600051234aa0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    "-",
+    "--signature-size",
+    16000,
+    "--entitlements",
+    "/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/entitlements~~~Nupfv5",
+    "--requirements",
+    "=designated => anchor apple generic and identifier \"app.dev.journey.admin\" and certificate leaf[subject.CN] = \"Apple Distribution: Journey Technologies AS (M8VAJHD5SP)\" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--omit-adhoc-flag",
+    "--team-identifier",
+    M8VAJHD5SP,
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app"
+)'>
+2024-08-16 13:36:41 +0000  codesign output: /var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app: replacing existing signature
+/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app: signed app bundle with Mach-O thin (arm64) [app.dev.journey.admin]
+2024-08-16 13:36:41 +0000  Remote code signing '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app' with signature slices '[<DVTCodeSignatureSlice: 0x600053d45c50; architecture='arm64', cmsDigest='<DVTCodeSignatureHash: 0x60003bb0c020; digestAlgorithmDescription='sha256', cdHashHexEncoded='41423aa085180adcdd53d462b5a9e846246da2df1461de7150f446a37822fdd1'>', codeSignatureHashes='{(
+    <DVTCodeSignatureHash: 0x60003bb0d660; digestAlgorithmDescription='sha256', cdHashHexEncoded='41423aa085180adcdd53d462b5a9e846246da2df1461de7150f446a37822fdd1'>
+)}', cmsHexEncoded=''>]' and configuration 'RemoteSigningToolConfiguration(path: <DVTFilePath:0x60000828cf00:'/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app'>, signingCertificate: <DVTSigningCertificate: 0x600004972ac0; name='Apple Distribution: Journey Technologies AS (M8VAJHD5SP)', hash='DBBB20CEFE515C9B2C482074758248FA286E4A92', serialNumber='6F5FD9CADCCB9ED41C28F87197271728', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-12-04 11:34:54 +0000''>, session: <DVTServicesAccountBasedSession: 0x6000919280c0; account='<DVTAppleIDBasedDeveloperAccount: 0x600002b14700; username='yevhen.koshliak@agilie.com'>'>, team: <DVTPortalTeam: 0x60000ec5d540; name='Journey Technologies AS', teamID='M8VAJHD5SP', type='Company/Organization', memberships='(
+    "<DVTPortalMembership: 0x6000263353b0; programs='{(\n    <DVTPortalProgram: 0x600005031130; <DVTPortalProgram: 0x600005031130; identifier='Xcode.Portal.Program.iOS'>>\n)}'>",
+    "<DVTPortalMembership: 0x6000263375d0; programs='{(\n    <DVTPortalProgram: 0x60000503f4d0; <DVTPortalProgram: 0x60000503f4d0; identifier='Xcode.Portal.Program.Mac'>>\n)}'>"
+)'>, codeResourcesDictionary: [AnyHashable("rules2"): {
+    ".*\\.dSYM($|/)" =     {
+        weight = 11;
+    };
+    "^(.*/)?\\.DS_Store$" =     {
+        omit = 1;
+        weight = 2000;
+    };
+    "^.*" = 1;
+    "^.*\\.lproj/" =     {
+        optional = 1;
+        weight = 1000;
+    };
+    "^.*\\.lproj/locversion.plist$" =     {
+        omit = 1;
+        weight = 1100;
+    };
+    "^Base\\.lproj/" =     {
+        weight = 1010;
+    };
+    "^Info\\.plist$" =     {
+        omit = 1;
+        weight = 20;
+    };
+    "^PkgInfo$" =     {
+        omit = 1;
+        weight = 20;
+    };
+    "^embedded\\.provisionprofile$" =     {
+        weight = 20;
+    };
+    "^version\\.plist$" =     {
+        weight = 20;
+    };
+}, AnyHashable("files2"): {
+    "AccessibilityResources.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x27123ad9 943b76f7 7469c73b d53d1931 ... 1aeac59e 0f9a1a4b };
+    };
+    "AccessibilityResources.bundle/en.lproj/Localizable.strings" =     {
+        hash2 = {length = 32, bytes = 0xacceb36c 18c2c10e 2458ab7b 2af854ab ... 18393174 bb867a41 };
+        optional = 1;
+    };
+    "AppIcon60x60@2x.png" =     {
+        hash2 = {length = 32, bytes = 0xc49efc18 dafb3922 3720e234 c4a024b0 ... 0783ca97 a1f50621 };
+    };
+    "AppIcon76x76@2x~ipad.png" =     {
+        hash2 = {length = 32, bytes = 0x909a0151 c48e479c 11c64261 230578d9 ... fcaaf180 ac8ca77f };
+    };
+    "Assets.car" =     {
+        hash2 = {length = 32, bytes = 0x353c6739 95e808c9 b72708ed 57ec6739 ... ea2fc445 6237367e };
+    };
+    "FBLPromises_Privacy.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x594adb43 a86a0d0e cad305f5 08889e24 ... 1e5e7971 5d4aa55d };
+    };
+    "FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0x74b0cd72 fc23c1ef 302f22ee 2753f618 ... d0632b52 4fb8acea };
+    };
+    "FirebaseCoreInternal_Privacy.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0xa0891b00 230e4091 82a1afb8 88deeb54 ... 27be9c64 d52862cd };
+    };
+    "FirebaseCoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0x5b7fe979 423dede3 e08afc29 a42f00f6 ... 97742358 63eed3ef };
+    };
+    "FirebaseCore_Privacy.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x120b9a77 6bab6bea 9a84cea3 c6110814 ... 2aed3bd2 c3064838 };
+    };
+    "FirebaseCore_Privacy.bundle/PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0x11e31f5f 6b60e80e bd590154 9fce5043 ... 945000b4 05306c3f };
+    };
+    "FirebaseInstallations_Privacy.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x7eb58073 28f670d2 bf4c5fae 40170a94 ... 824bfbe8 34a43bbb };
+    };
+    "FirebaseInstallations_Privacy.bundle/PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0xcfbb3c4f 76a66d53 698bae91 f7110c00 ... 32592909 bc010e51 };
+    };
+    "Frameworks/hermes.framework/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x69d6caf4 cf3f206d d35969aa 362c1c60 ... b1e376f0 7c3b082e };
+    };
+    "Frameworks/hermes.framework/_CodeSignature/CodeResources" =     {
+        hash2 = {length = 32, bytes = 0x08502f91 409c6cea 1f84a57e c9fc1047 ... 8ae60625 b7f87a04 };
+    };
+    "Frameworks/hermes.framework/hermes" =     {
+        hash2 = {length = 32, bytes = 0xfe0fca79 e67a63a7 e67545d6 44e9bef1 ... 6d67b289 cf1cc173 };
+    };
+    "GoogleService-Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x32e16a85 d4ddb33e 13d10b7f b2402952 ... 212c1aaa af7102d9 };
+    };
+    "GoogleUtilities_Privacy.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0xd2ae3fd1 fb6c0262 7a6c6c05 92d8ddb0 ... 618ff1d0 ef1c207a };
+    };
+    "GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0x8f164233 c5d215fb 06ceb878 4934021d ... 6ba5c832 ab0fb3f7 };
+    };
+    "LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" =     {
+        hash2 = {length = 32, bytes = 0xf4f6986c 041eeace 74a4c96b 7e1af232 ... b104c018 aa01c3b1 };
+    };
+    "LaunchScreen.storyboardc/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x1f255d5c c53b531e 3f29a940 6a8df49a ... bd8374f7 07f7d5c8 };
+    };
+    "LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" =     {
+        hash2 = {length = 32, bytes = 0x54f3637f 671feba5 f19e82ec 4f4a7fb4 ... 89aa571f c8f053e2 };
+    };
+    "RNCAsyncStorage_resources.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x560bd7fd 188bdcf8 b97258ca 0a6d676e ... c5b278f8 2ba001eb };
+    };
+    "RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0x0b1287d0 e686cf86 7d38d97c ca5dc694 ... dd4bd2fd 5458a2f0 };
+    };
+    "RNDeviceInfoPrivacyInfo.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0xea91800f 358bdba6 a928a7d8 50bc31a1 ... 7812cad7 0c6173de };
+    };
+    "RNDeviceInfoPrivacyInfo.bundle/PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0xe187baee 4c16cad9 6a7bf3c4 de201928 ... 3a052058 01f769e6 };
+    };
+    "RNFS_PrivacyInfo.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x87288989 d31c4792 f6d5f002 319b3b9f ... 80f04807 092109f2 };
+    };
+    "RNFS_PrivacyInfo.bundle/PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0xaf4e73c5 8cc1a3af 3b3f72db 55fc6346 ... 88234e92 3ddc8b82 };
+    };
+    "Sentry.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0xb1a79778 92feb141 c82d32e2 4f35a5ea ... 09721777 eb907c96 };
+    };
+    "Sentry.bundle/PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0x118b16e0 e97ffe8b 6f1f01b7 e04f68e5 ... 33b0eeae f3cdc0ca };
+    };
+    "assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png" =     {
+        hash2 = {length = 32, bytes = 0x2c95e8c2 675e7993 35fd0046 bb07dbda ... 22c6309d 619cc4d3 };
+    };
+    "assets/node_modules/@react-navigation/elements/src/assets/back-icon.png" =     {
+        hash2 = {length = 32, bytes = 0x2cdfeb8e 5ccde797 6f7012fb 8cce73af ... 09fed114 871c6cd8 };
+    };
+    "assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png" =     {
+        hash2 = {length = 32, bytes = 0x2b7443a9 a58e92ca 11a575bd c1159861 ... 0d602606 b302cd98 };
+    };
+    "assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png" =     {
+        hash2 = {length = 32, bytes = 0x3ddd0773 ed27e23d 25789f30 1731b3ac ... 1b838f89 c6d27225 };
+    };
+    "assets/node_modules/react-native-calendars/src/calendar/img/next@2x.png" =     {
+        hash2 = {length = 32, bytes = 0x0bcfea72 226dddf7 25104e65 7a969ad8 ... fbd6ed1a bd95d4e5 };
+    };
+    "assets/node_modules/react-native-calendars/src/calendar/img/previous@2x.png" =     {
+        hash2 = {length = 32, bytes = 0xd2318197 121d5907 c2428979 d2c68c9c ... 7c4ca451 8eb1732f };
+    };
+    "assets/node_modules/react-native-calendars/src/img/down.png" =     {
+        hash2 = {length = 32, bytes = 0x61b7b566 a6bd8d91 eddc58ed bcb0c2f8 ... 5444a42d 91539633 };
+    };
+    "assets/node_modules/react-native-calendars/src/img/down@2x.png" =     {
+        hash2 = {length = 32, bytes = 0xcf1bfe7c 1653f3d0 6c2c2b14 ab9fe031 ... 5d3228d6 a58a424c };
+    };
+    "assets/node_modules/react-native-calendars/src/img/down@3x.png" =     {
+        hash2 = {length = 32, bytes = 0xd0d9df8c 65bb6744 ce32204a fa3abe47 ... 7d3f7758 f330dc23 };
+    };
+    "assets/node_modules/react-native-calendars/src/img/up.png" =     {
+        hash2 = {length = 32, bytes = 0xb77bffd5 c43658d0 17a36a83 06ccd5ec ... 923c7781 7eb623c9 };
+    };
+    "assets/node_modules/react-native-calendars/src/img/up@2x.png" =     {
+        hash2 = {length = 32, bytes = 0xed1f1c8f c37e3694 f6f965ff 4bbca6c4 ... bcbd71b6 c80f6d25 };
+    };
+    "assets/node_modules/react-native-calendars/src/img/up@3x.png" =     {
+        hash2 = {length = 32, bytes = 0x43565cc5 0264c73d 6e426d0f d3dc6e69 ... 867f2f8d d235a6aa };
+    };
+    "assets/src/assets/png/productPlaceholder.png" =     {
+        hash2 = {length = 32, bytes = 0x76d2ebd0 ceafa9c7 879ef3fd cecd3dea ... d0a96a29 2245e378 };
+    };
+    "assets/src/assets/png/projectPlaceholder.png" =     {
+        hash2 = {length = 32, bytes = 0xe7ba6055 3faa2c97 9aa4a6e6 8940b10e ... fb8c4c5c 90dd9923 };
+    };
+    "embedded.mobileprovision" =     {
+        hash2 = {length = 32, bytes = 0x5d1e9c3e 2d05519b 72f40e70 4024c9b0 ... 572a3b65 27771de1 };
+    };
+    "main.jsbundle" =     {
+        hash2 = {length = 32, bytes = 0xcacc0302 e60bc80e 3b48fc07 1647aeee ... 3fc5aaa8 3d8e6db6 };
+    };
+    "nanopb_Privacy.bundle/Info.plist" =     {
+        hash2 = {length = 32, bytes = 0x5fdbb321 d60b0c2a 533bdc1c 45ecc9ee ... 1e339be0 afc3c555 };
+    };
+    "nanopb_Privacy.bundle/PrivacyInfo.xcprivacy" =     {
+        hash2 = {length = 32, bytes = 0x729ba3cb d0f458c7 8cd61edf 17350eda ... 64c8cb22 ccd21b54 };
+    };
+}, AnyHashable("files"): {
+    "AccessibilityResources.bundle/Info.plist" = {length = 20, bytes = 0x93b1442c333583b3bf9b8c4a0834e3ab5851dd11};
+    "AccessibilityResources.bundle/en.lproj/Localizable.strings" =     {
+        hash = {length = 20, bytes = 0x85af75399c384ce816531b944f905bb22c2a696d};
+        optional = 1;
+    };
+    "AppIcon60x60@2x.png" = {length = 20, bytes = 0x55edd6b8311d0fc4b77c1affb25a9e0cf91c1ea9};
+    "AppIcon76x76@2x~ipad.png" = {length = 20, bytes = 0xd71144c4794ca4127e3ddb3aec21a8a924b15a96};
+    "Assets.car" = {length = 20, bytes = 0x07771979f6ae85876e4e1f3d15efe6da6eb361ba};
+    "FBLPromises_Privacy.bundle/Info.plist" = {length = 20, bytes = 0xc6d003bbdee2a63f44734023ad7f8a69c27c75cf};
+    "FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy" = {length = 20, bytes = 0x65a8e7bc4b3f318452dd7e133cb0210568bc99ce};
+    "FirebaseCoreInternal_Privacy.bundle/Info.plist" = {length = 20, bytes = 0x6c52db73572d313ab7a8467fc07532b5a2da2305};
+    "FirebaseCoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy" = {length = 20, bytes = 0x89fa1386ba9b6eaa0b1b8ca302bb8c41169fd03c};
+    "FirebaseCore_Privacy.bundle/Info.plist" = {length = 20, bytes = 0x5312150305b548af46986b492b2372447ae1c111};
+    "FirebaseCore_Privacy.bundle/PrivacyInfo.xcprivacy" = {length = 20, bytes = 0xb1ad8e84596a742232cfda15edf51d0ca5b314bd};
+    "FirebaseInstallations_Privacy.bundle/Info.plist" = {length = 20, bytes = 0x249010806e109f7026eb0083f9c0811eda0c140c};
+    "FirebaseInstallations_Privacy.bundle/PrivacyInfo.xcprivacy" = {length = 20, bytes = 0x59741426bef978c4608959cb1b27fc1abdee2d45};
+    "Frameworks/hermes.framework/Info.plist" = {length = 20, bytes = 0xaff23ef25fe5b11cb50373b529a55589d5b7445c};
+    "Frameworks/hermes.framework/_CodeSignature/CodeResources" = {length = 20, bytes = 0xea61ca9533a730d207319e65e75163636f696f06};
+    "Frameworks/hermes.framework/hermes" = {length = 20, bytes = 0x8fac8e86e1c757fe016a9bab94323df85e873923};
+    "GoogleService-Info.plist" = {length = 20, bytes = 0x7a4d8b7c47617b23be0616a2ec341c2e266d1126};
+    "GoogleUtilities_Privacy.bundle/Info.plist" = {length = 20, bytes = 0x73ba8dc40f68028a4fc4d4cd501e037b9dd01ce0};
+    "GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy" = {length = 20, bytes = 0x4eb473a64c5c983c0f7fdc5786b40a9ee45c7b22};
+    "Info.plist" = {length = 20, bytes = 0x951b2041de880c731d4952374e6bbf64f0170572};
+    "LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" = {length = 20, bytes = 0x8d3adff74b03a771a04c479847590291d651d29b};
+    "LaunchScreen.storyboardc/Info.plist" = {length = 20, bytes = 0x9f6b7c82c0e97c4e979211b7d69ec84094714f15};
+    "LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" = {length = 20, bytes = 0x65580cd7e2b065c667c2181a23417b06dd5b6b67};
+    PkgInfo = {length = 20, bytes = 0x9f9eea0cfe2d65f2c3d6b092e375b40782d08f31};
+    "RNCAsyncStorage_resources.bundle/Info.plist" = {length = 20, bytes = 0x5e73993332d0202710656aa507de9b64ee674909};
+    "RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy" = {length = 20, bytes = 0xb0f0dfc82c17545c123fc70645646c9296e55a03};
+    "RNDeviceInfoPrivacyInfo.bundle/Info.plist" = {length = 20, bytes = 0xc952f2aff9221c749cf32f1c371dcaefac9eba44};
+    "RNDeviceInfoPrivacyInfo.bundle/PrivacyInfo.xcprivacy" = {length = 20, bytes = 0x9bc68d2868022d61ed0505a89e0e31f33b0d6a78};
+    "RNFS_PrivacyInfo.bundle/Info.plist" = {length = 20, bytes = 0x0838cef2f07b5537f2680c0eb2526b67949aa594};
+    "RNFS_PrivacyInfo.bundle/PrivacyInfo.xcprivacy" = {length = 20, bytes = 0xe0e1e159792c61a0b9a5f0d754ce4dbcac27a632};
+    "Sentry.bundle/Info.plist" = {length = 20, bytes = 0xef4395dc154ead8ae109597d37baa5238648b15f};
+    "Sentry.bundle/PrivacyInfo.xcprivacy" = {length = 20, bytes = 0x4d09e02e34e32d216422fce3d1c51eaa5960f682};
+    "assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png" = {length = 20, bytes = 0xffdc4ed473b2be2806e99d0f680d1d2e9fe00e56};
+    "assets/node_modules/@react-navigation/elements/src/assets/back-icon.png" = {length = 20, bytes = 0x91e2ce8b58a725d5ecd084522a75eaca15b9ec0c};
+    "assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png" = {length = 20, bytes = 0xad2bc6f26e2e3cc488b4872c205f8ddad0c90fc5};
+    "assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png" = {length = 20, bytes = 0xf24146f15bfb1dfaf0e3255c16b85485b1e27810};
+    "assets/node_modules/react-native-calendars/src/calendar/img/next@2x.png" = {length = 20, bytes = 0xed61b07a97383a633a39921a078fe4fdc5095845};
+    "assets/node_modules/react-native-calendars/src/calendar/img/previous@2x.png" = {length = 20, bytes = 0xe0503209662fbfb175970c65b57cadb5074124bd};
+    "assets/node_modules/react-native-calendars/src/img/down.png" = {length = 20, bytes = 0x26bdfe38892ad9c4c4848b4665ed47a84efc35d5};
+    "assets/node_modules/react-native-calendars/src/img/down@2x.png" = {length = 20, bytes = 0xbe89c56378f2cc1038597e9e9b1acacd63e529f0};
+    "assets/node_modules/react-native-calendars/src/img/down@3x.png" = {length = 20, bytes = 0xa076dffc34f325f144713cc07133fa7e0edb2c1a};
+    "assets/node_modules/react-native-calendars/src/img/up.png" = {length = 20, bytes = 0x3ef1a4072fb6d119e19e74be2c65bccea3d5331c};
+    "assets/node_modules/react-native-calendars/src/img/up@2x.png" = {length = 20, bytes = 0xe47c4a9b489f2825aebe8a1e2b6cf1fe31bb66f9};
+    "assets/node_modules/react-native-calendars/src/img/up@3x.png" = {length = 20, bytes = 0x1d62eabc0047dcdbbf98fc99ce28a5a612bdd37c};
+    "assets/src/assets/png/productPlaceholder.png" = {length = 20, bytes = 0x7566c5a0f23bed08d408030e43da98cfff25961a};
+    "assets/src/assets/png/projectPlaceholder.png" = {length = 20, bytes = 0x76077f6715e67c5d8f7731e13bebfa7b179d21b8};
+    "embedded.mobileprovision" = {length = 20, bytes = 0x1b776b58eb25f02f2addcf7a537e73032d3f0f40};
+    "main.jsbundle" = {length = 20, bytes = 0x3289d1ba46c1dda75fb53a76470f820fc5fb2497};
+    "nanopb_Privacy.bundle/Info.plist" = {length = 20, bytes = 0x02c3f7be9c083f634a25ee479526d5b48fdb2424};
+    "nanopb_Privacy.bundle/PrivacyInfo.xcprivacy" = {length = 20, bytes = 0x298e657f00b64efb20163e30b7b8643266a29dbb};
+}, AnyHashable("rules"): {
+    "^.*" = 1;
+    "^.*\\.lproj/" =     {
+        optional = 1;
+        weight = 1000;
+    };
+    "^.*\\.lproj/locversion.plist$" =     {
+        omit = 1;
+        weight = 1100;
+    };
+    "^Base\\.lproj/" =     {
+        weight = 1010;
+    };
+    "^version.plist$" = 1;
+}], enableSignatureValidation: true)'
+2024-08-16 13:36:41 +0000  Sending request 16616569-CD98-4CB7-A42A-F9A6DACB13E1 to <https://developerservices2.apple.com/services/v1/certificates> for session <DVTServicesAccountBasedSession: 0x6000919280c0; account='<DVTAppleIDBasedDeveloperAccount: 0x600002b14700; username='yevhen.koshliak@agilie.com'>'>.
+Method: POST
+
+Headers:
+{
+    Accept = "application/vnd.api+json";
+    "Accept-Encoding" = "gzip, deflate";
+    "Content-Length" = 104;
+    "Content-Type" = "application/vnd.api+json";
+    DSESSIONID = 1iba1m30jap419vccl56tdnls9ju3a5iqeh4dvgl24gtanpi8t4j;
+    "User-Agent" = Xcode;
+    "X-Apple-App-Info" = "com.apple.gs.xcode.auth";
+    "X-Apple-GS-Token" = "AAAABLwIAAAAAGZd2OARDWdzLnhjb2RlLmF1dGi9ALiO6ip1wJq8h3qh+3orfKbzMgHKSr7vTTGj989NegZU4g3CIxehtt85m0+1/kUn4jHb5IRfco9ooaeoImXDx2L1Afkr8wHbnKtjl/Kv24hIQr79oQiFEgk0Pbfs5Bvcjfsq6bqAS1Ut5kp0ZGq8onHj1rcY";
+    "X-Apple-I-Identity-Id" = "000820-08-4bbfca33-a03a-4f28-9694-854c00408b35";
+    "X-HTTP-Method-Override" = GET;
+    "X-MMe-Client-Info" = "<Mac15,6> <macOS;14.3;23D56> <com.apple.AuthKit/1 (com.apple.dt.Xcode/22622)>";
+    "X-Mme-Device-Id" = "ADA14960-6A6F-5EE4-B0D9-8FE94BA45D33";
+    "X-Xcode-Version" = "15.4 (15F31d)";
+}
+
+Payload:
+{"urlEncodedQueryParams":"teamId=M8VAJHD5SP&filter%5BcertificateType%5D=DISTRIBUTION_MANAGED&limit=200"}
+2024-08-16 13:36:41 +0000  Received response for 16616569-CD98-4CB7-A42A-F9A6DACB13E1 @ <https://developerservices2.apple.com/services/v1/certificates>. Code = 0
+2024-08-16 13:36:41 +0000  Response payload: {
+  "data" : [ {
+    "type" : "certificates",
+    "id" : "XL75MA3PZ5",
+    "attributes" : {
+      "requesterEmail" : "oleksander.boiko@agilie.com",
+      "serialNumber" : "6F5FD9CADCCB9ED41C28F87197271728",
+      "certificateContent" : "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",
+      "displayName" : "Journey Technologies AS",
+      "requesterLastName" : "Boiko",
+      "csrContent" : null,
+      "machineName" : null,
+      "platform" : null,
+      "requesterFirstName" : "Alex",
+      "machineId" : null,
+      "name" : "Apple Distribution: Journey Technologies AS",
+      "responseId" : "1191d51e-69c7-495d-9a39-b386c73fa30e",
+      "expirationDate" : "2024-12-03T11:34:53.000+00:00",
+      "certificateType" : "DISTRIBUTION_MANAGED"
+    },
+    "links" : {
+      "self" : "https://developerservices2.apple.com:443/services/v1/certificates/XL75MA3PZ5"
+    }
+  } ],
+  "links" : {
+    "self" : "https://developerservices2.apple.com:443/services/v1/certificates?filter%5BcertificateType%5D=DISTRIBUTION_MANAGED&limit=200"
+  },
+  "meta" : {
+    "paging" : {
+      "total" : 1,
+      "limit" : 200
+    }
+  }
+}
+
+2024-08-16 13:36:41 +0000  Sending request EDFF2076-36D6-4120-9AA9-27E74BEF4925 to <https://developerservices3.apple.com/services/v1/batch> for session <DVTServicesAccountBasedSession: 0x6000919280c0; account='<DVTAppleIDBasedDeveloperAccount: 0x600002b14700; username='yevhen.koshliak@agilie.com'>'>.
+Method: POST
+
+Headers:
+{
+    Accept = "application/vnd.api+json";
+    "Accept-Encoding" = "gzip, deflate";
+    "Content-Length" = 488;
+    "Content-Type" = "application/vnd.api+json";
+    DSESSIONID = 1iba1m30jap419vccl56tdnls9ju3a5iqeh4dvgl24gtanpi8t4j;
+    "User-Agent" = Xcode;
+    "X-Apple-App-Info" = "com.apple.gs.xcode.auth";
+    "X-Apple-GS-Token" = "AAAABLwIAAAAAGZd2OARDWdzLnhjb2RlLmF1dGi9ALiO6ip1wJq8h3qh+3orfKbzMgHKSr7vTTGj989NegZU4g3CIxehtt85m0+1/kUn4jHb5IRfco9ooaeoImXDx2L1Afkr8wHbnKtjl/Kv24hIQr79oQiFEgk0Pbfs5Bvcjfsq6bqAS1Ut5kp0ZGq8onHj1rcY";
+    "X-Apple-I-Identity-Id" = "000820-08-4bbfca33-a03a-4f28-9694-854c00408b35";
+    "X-MMe-Client-Info" = "<Mac15,6> <macOS;14.3;23D56> <com.apple.AuthKit/1 (com.apple.dt.Xcode/22622)>";
+    "X-Mme-Device-Id" = "ADA14960-6A6F-5EE4-B0D9-8FE94BA45D33";
+    "X-Xcode-Version" = "15.4 (15F31d)";
+}
+
+Payload:
+{"data":{"type":"batch","attributes":{"teamId":"M8VAJHD5SP","resourceVersion":"1","resourceList":[{"data":{"type":"codeSignatures","relationships":{"certificate":{"data":{"type":"certificates","id":"XL75MA3PZ5"}},"bundleId":{"data":{"id":"2F2MU69LWR","type":"bundleIds"}}},"attributes":{"name":"0","digestHash":"41423AA085180ADCDD53D462B5A9E846246DA2DF1461DE7150F446A37822FDD1","cdHashSha256":"41423AA085180ADCDD53D462B5A9E846246DA2DF1461DE7150F446A37822FDD1","teamId":"M8VAJHD5SP"}}}]}}}
+2024-08-16 13:36:41 +0000  Received response for EDFF2076-36D6-4120-9AA9-27E74BEF4925 @ <https://developerservices3.apple.com/services/v1/batch>. Code = 0
+2024-08-16 13:36:41 +0000  Response payload: {
+  "data" : {
+    "type" : "batch",
+    "id" : "98b5bed9-c2bd-4ea0-a767-53deef0ed988",
+    "attributes" : {
+      "responseId" : "98b5bed9-c2bd-4ea0-a767-53deef0ed988",
+      "resourceList" : [ {
+        "type" : "codeSignatures",
+        "id" : "86af7645-949b-4705-a504-113431721255",
+        "attributes" : {
+          "digestHash" : "41423AA085180ADCDD53D462B5A9E846246DA2DF1461DE7150F446A37822FDD1",
+          "cdHashSha256" : "41423AA085180ADCDD53D462B5A9E846246DA2DF1461DE7150F446A37822FDD1",
+          "signature" : "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",
+          "name" : "0",
+          "responseId" : "98b5bed9-c2bd-4ea0-a767-53deef0ed988",
+          "cmsSignature" : "MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCAMIIF7zCCBNegAwIBAgIQb1/ZytzLntQcKPhxlycXKDANBgkqhkiG9w0BAQsFADB1MUQwQgYDVQQDDDtBcHBsZSBXb3JsZHdpZGUgRGV2ZWxvcGVyIFJlbGF0aW9ucyBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTELMAkGA1UECwwCRzMxEzARBgNVBAoMCkFwcGxlIEluYy4xCzAJBgNVBAYTAlVTMB4XDTIzMTIwNDExMzQ1NFoXDTI0MTIwMzExMzQ1M1owgaMxGjAYBgoJkiaJk/IsZAEBDApNOFZBSkhENVNQMUEwPwYDVQQDDDhBcHBsZSBEaXN0cmlidXRpb246IEpvdXJuZXkgVGVjaG5vbG9naWVzIEFTIChNOFZBSkhENVNQKTETMBEGA1UECwwKTThWQUpIRDVTUDEgMB4GA1UECgwXSm91cm5leSBUZWNobm9sb2dpZXMgQVMxCzAJBgNVBAYTAlVTMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4lTaLFYezj4ov6oM3KrkX48zp47gFQtKCBmtlVf8X6IJr0FJfA7OXJMe4rebcMl5d2hXS2eii0eYN+9K5LiUgBTQSTPOtVKmVWL5CkhRbEqi6J8kt+b9yEp0kXfveAqbaUSUSLwh7Wd08NqcUg53/ossFTn+9sJlMbnyD8XIlV5AeXFW2fBdBLZuPE6GO1OZtrx2zc5qnSVDcaN0hxSQJzVRR2MUdrQaQX31Sqv4CaWpje3XS4PbSwy5nxkbt4kNa6vFqb/Tt4/9x8j4PsM/bpSjshBBZs01jYrlK15+6OXfML0Gg6TZHx/0cqNOkbma9VPUCM5/q30F+K27RkaO6QIDAQABo4ICSjCCAkYwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBQJ/sAVkPmvZAqSErkmKGMMl+ynsjBwBggrBgEFBQcBAQRkMGIwLQYIKwYBBQUHMAKGIWh0dHA6Ly9jZXJ0cy5hcHBsZS5jb20vd3dkcmczLmRlcjAxBggrBgEFBQcwAYYlaHR0cDovL29jc3AuYXBwbGUuY29tL29jc3AwMy13d2RyZzMxMTCCAR4GA1UdIASCARUwggERMIIBDQYJKoZIhvdjZAUBMIH/MIHDBggrBgEFBQcCAjCBtgyBs1JlbGlhbmNlIG9uIHRoaXMgY2VydGlmaWNhdGUgYnkgYW55IHBhcnR5IGFzc3VtZXMgYWNjZXB0YW5jZSBvZiB0aGUgdGhlbiBhcHBsaWNhYmxlIHN0YW5kYXJkIHRlcm1zIGFuZCBjb25kaXRpb25zIG9mIHVzZSwgY2VydGlmaWNhdGUgcG9saWN5IGFuZCBjZXJ0aWZpY2F0aW9uIHByYWN0aWNlIHN0YXRlbWVudHMuMDcGCCsGAQUFBwIBFitodHRwczovL3d3dy5hcHBsZS5jb20vY2VydGlmaWNhdGVhdXRob3JpdHkvMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMDMB0GA1UdDgQWBBR4D99FykDsQOyAiiUjvEud6ylIIzAOBgNVHQ8BAf8EBAMCB4AwEwYKKoZIhvdjZAYBBwEB/wQCBQAwEAYKKoZIhvdjZAYBIAQCBQAwEwYKKoZIhvdjZAYBBAEB/wQCBQAwDQYJKoZIhvcNAQELBQADggEBAGJJr0CW6SPKuBf/Bk0MHgUm5rKv6rR0KzTPba663a/HtRj3mhAC2JlWnY5fs2ezlAlwWaYa7HJkUdLHISwiFkx0tnl9wNGgSosZovi25uDZ8WOsggS6GKbSlfxGkwk6yoZyS/aPqruzo+W66k/Fsvurw+LbjSngqaQct+Bd9zi0m53vCqP30ts53+yvuYoXEp/zkosHHe6n8aVrdhdDGSMKsVWE9g4gzcbKMdezYcnDoYumLceXE1enRyuEFmkRiWV6bvkOrzY+L6SWVn3Z0EJQNPr25MHbzUm7tmufhzDwsjufc5GD8dxoeJOVvNolxbn8deizzHrTzLr9gDW3Tv0wggRRMIIDOaADAgECAhB8r2kKJbc5/nubRHrBeMXuMA0GCSqGSIb3DQEBCwUAMGIxCzAJBgNVBAYTAlVTMRMwEQYDVQQKEwpBcHBsZSBJbmMuMSYwJAYDVQQLEx1BcHBsZSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTEWMBQGA1UEAxMNQXBwbGUgUm9vdCBDQTAeFw0yMDAyMTkxODEzNDdaFw0zMDAyMjAwMDAwMDBaMHUxRDBCBgNVBAMMO0FwcGxlIFdvcmxkd2lkZSBEZXZlbG9wZXIgUmVsYXRpb25zIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MQswCQYDVQQLDAJHMzETMBEGA1UECgwKQXBwbGUgSW5jLjELMAkGA1UEBhMCVVMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDY9Yn8qFkLh8dMkS4tVpDTeB2kMOmlSO8LQ78thPskXUUb5etZNhJcVGSebGIttMaXysw89tYGkfzlAqYcarR51WfLrOk/BxHhhLxHHWaOOaLotEntOtLhEGB6jpOMysDaDMCD0OP5kdanjMjBc+KuRtFinZKokGA3fWiWzY3g/Jv6eLvje68tF91b/oBZI3UXuBLB7RvlNM7+IrWeSbDlVb+PhKI8qLrFhpUW5ADJnwPQzLM6FnvWBVyd60euDbUtjA5pTUDQS0w7BJ6NIbGsLkNUMM7BioaUmEvfag0//vscrpcXwngKMOBfH1Q7SbclABo3gtJWl6VSSXxgOJvvAgMBAAGjge8wgewwEgYDVR0TAQH/BAgwBgEB/wIBADAfBgNVHSMEGDAWgBQr0GlHlHYJ/vRrjS5ApvdHTX8IXjBEBggrBgEFBQcBAQQ4MDYwNAYIKwYBBQUHMAGGKGh0dHA6Ly9vY3NwLmFwcGxlLmNvbS9vY3NwMDMtYXBwbGVyb290Y2EwLgYDVR0fBCcwJTAjoCGgH4YdaHR0cDovL2NybC5hcHBsZS5jb20vcm9vdC5jcmwwHQYDVR0OBBYEFAn+wBWQ+a9kCpISuSYoYwyX7KeyMA4GA1UdDwEB/wQEAwIBBjAQBgoqhkiG92NkBgIBBAIFADANBgkqhkiG9w0BAQsFAAOCAQEArWUT6PbggXdEAkdCvl+lOSDqYqn9xZDJcxPVnpvQqg+NjcvtAc9sKEBbx1UkQfj8z8G1I+nc7PFvyoAdd8LEYUklZ68PyjklrdPjeswzKA0OLqFXQHP65lyuBlEp7eOFDE9h3DIWi3fQRMpdcgMxRpyum0Aa+vTg0z76L4xmn5fEVFnv0kj0B5lJYFkZx92U0cDBbH94Ie8M6ztsmYJLUmA4tTmCbexSMVO+D5FMSUl0j6ZRy4RHTh11J269+dJc83/CbAsJNuJk5MI3AxQZ1epqlKqp2/72mghni+8ruKoXSYOvz8u86c/qlXGwtEWizOWHqgrDQTp5XNpQNJ2VOzCCBLswggOjoAMCAQICAQIwDQYJKoZIhvcNAQEFBQAwYjELMAkGA1UEBhMCVVMxEzARBgNVBAoTCkFwcGxlIEluYy4xJjAkBgNVBAsTHUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRYwFAYDVQQDEw1BcHBsZSBSb290IENBMB4XDTA2MDQyNTIxNDAzNloXDTM1MDIwOTIxNDAzNlowYjELMAkGA1UEBhMCVVMxEzARBgNVBAoTCkFwcGxlIEluYy4xJjAkBgNVBAsTHUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRYwFAYDVQQDEw1BcHBsZSBSb290IENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5JGpCR+R2x5HUOsF7V55hC3rNqJXTFXsixmJ3vlLbPUHqyIwAugYPvhQCdN/QaiY+dHKZpwkaxHQo7vkGyrDH5WeegykR4tb1BY3M8vED03OFGnRyRly9V0O1X9fm/IlA7pVj01dDfFkNSMVSxVZHbOU9/acns9QusFYUGePCLQg98usLCBvcLY/ATCMt0PPD5098ytJKBrI/s61uQ7ZXhzWyz21Oq30Dw4AkguxIRYudNU8DdtiFqujcZJHU1XBry9Bs/j743DN5qNMRX4fTGtQlkGJxHRiCxCDQYczioGxMFjsWgQyjGizjx3eZXP/Z15lvEnYdp8zFGWhd5TJLQIDAQABo4IBejCCAXYwDgYDVR0PAQH/BAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFCvQaUeUdgn+9GuNLkCm90dNfwheMB8GA1UdIwQYMBaAFCvQaUeUdgn+9GuNLkCm90dNfwheMIIBEQYDVR0gBIIBCDCCAQQwggEABgkqhkiG92NkBQEwgfIwKgYIKwYBBQUHAgEWHmh0dHBzOi8vd3d3LmFwcGxlLmNvbS9hcHBsZWNhLzCBwwYIKwYBBQUHAgIwgbYagbNSZWxpYW5jZSBvbiB0aGlzIGNlcnRpZmljYXRlIGJ5IGFueSBwYXJ0eSBhc3N1bWVzIGFjY2VwdGFuY2Ugb2YgdGhlIHRoZW4gYXBwbGljYWJsZSBzdGFuZGFyZCB0ZXJtcyBhbmQgY29uZGl0aW9ucyBvZiB1c2UsIGNlcnRpZmljYXRlIHBvbGljeSBhbmQgY2VydGlmaWNhdGlvbiBwcmFjdGljZSBzdGF0ZW1lbnRzLjANBgkqhkiG9w0BAQUFAAOCAQEAXDaZTC14t+2Mm9zzd5vydtJ3ME/BH4WDhRuZPUc38qmbQI4s1LGQEti+9HOb7tJkD8t5TzTYoj75eP9ryAfsfTmDi1Mg0zjEsb+aTwpr/yv8WacFCXwXQFYRHnTTt4sjO0ej1W8k4uvRt3DfD0XhJ8rxbXjt57UXF6jcfiI1yiXV2Q/Wa9SiJCMR96Gsj3OBYMYbWwkvkrL4REjwYDieFfU9JmcgijNq9w2Cz97roy/5U2pbZMBjM3f3OgcsVuvaDyEO2rpzGU+12TZ/wYdV2aeZuTJC+9jVcZ5+oVK3G72TQiQSKscPHbZNnF5jyEuAF1CqitXa5PzQCQc3sHV1IQAAMYIDYjCCA14CAQEwgYkwdTFEMEIGA1UEAww7QXBwbGUgV29ybGR3aWRlIERldmVsb3BlciBSZWxhdGlvbnMgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkxCzAJBgNVBAsMAkczMRMwEQYDVQQKDApBcHBsZSBJbmMuMQswCQYDVQQGEwJVUwIQb1/ZytzLntQcKPhxlycXKDANBglghkgBZQMEAgEFAKCCAakwGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjQwODE2MTMzNjQxWjAvBgkqhkiG9w0BCQQxIgQgQUI6oIUYCtzdU9RitanoRiRtot8UYd5xUPRGo3gi/dEwPAYJKoZIhvdjZAkCMS8wLQYJYIZIAWUDBAIBBCBBQjqghRgK3N1T1GK1qehGJG2i3xRh3nFQ9EajeCL90TCB/wYJKoZIhvdjZAkBMYHxBIHuPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+Y2RoYXNoZXM8L2tleT4KCTxhcnJheT4KCQk8ZGF0YT4KCQlRVUk2b0lVWUN0emRVOVJpdGFub1JpUnRvdDg9CgkJPC9kYXRhPgoJPC9hcnJheT4KPC9kaWN0Pgo8L3BsaXN0PjANBgkqhkiG9w0BAQsFAASCAQAJ9X8RBcSa/ehb3kitiYMJ+WJyeg0QLhD4Kdm1oM7ClXCaietFSlitYd9JWQs49+2/BPwBWVc7OOINwStqz0rk8M4UOj84TPyOsOFkapHeCuPa09uN9FvGWvU9f/KN58IEhN8FR42FMmByDLD4nWf2b8I/BKy2MkOtN3r0dqwNf28VHlGRIHBSynV/6Fr71+7hnE484S9g7TFkwEi3gwGTQ6Ti9JoIz2SbG7kvimjary6aYHfSiwr9/SwNs0MwELdkomZgv9acbOHWJZ0i6JDhsN3pVrpkq9US64cPvyRlAH2cR9keDGPJr3oXhSktkQ4wSy9J3up7DINNzcYJl2FeAAAAAAAA",
+          "timestamp" : false
+        },
+        "relationships" : {
+          "bundleId" : {
+            "data" : {
+              "type" : "bundleIds",
+              "id" : "2F2MU69LWR"
+            },
+            "links" : {
+              "self" : {
+                "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/86af7645-949b-4705-a504-113431721255/relationships/bundleId"
+              },
+              "related" : {
+                "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/86af7645-949b-4705-a504-113431721255/bundleId"
+              }
+            }
+          },
+          "certificate" : {
+            "data" : {
+              "type" : "certificates",
+              "id" : "XL75MA3PZ5"
+            },
+            "links" : {
+              "self" : {
+                "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/86af7645-949b-4705-a504-113431721255/relationships/certificate"
+              },
+              "related" : {
+                "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/86af7645-949b-4705-a504-113431721255/certificate"
+              }
+            }
+          }
+        },
+        "links" : {
+          "self" : {
+            "href" : "https://developerservices3.apple.com:443/services/v1/codeSignatures/86af7645-949b-4705-a504-113431721255"
+          }
+        }
+      } ],
+      "resourceVersion" : "1"
+    },
+    "links" : {
+      "self" : "https://developerservices3.apple.com:443/services/v1/batch/98b5bed9-c2bd-4ea0-a767-53deef0ed988"
+    }
+  },
+  "links" : {
+    "self" : "https://developerservices3.apple.com:443/services/v1/batch"
+  }
+}
+
+2024-08-16 13:36:41 +0000  Remote signature for /var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app (arch: arm64) is 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
+2024-08-16 13:36:41 +0000  invoking codesign: <NSConcreteTask: 0x60003d324be0; launchPath='/usr/bin/codesign', arguments='(
+    "-e",
+    "--edit-cms",
+    "/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/cms~~~tMHR9w",
+    "/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app"
+)'>
+2024-08-16 13:36:41 +0000  codesign output: 
+2024-08-16 13:36:41 +0000  Processing step: IDEDistributionZipODRItemStep
+2024-08-16 13:36:41 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-08-16 13:36:41 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-08-16 13:36:41 +0000  Processing step: IDEDistributionCreateIPAStep
+2024-08-16 13:36:41 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Symbols' '--link-dest' '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz' '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root'
+2024-08-16 13:36:41 +0000  building file list ... 
+2024-08-16 13:36:41 +0000   0 files...2024-08-16 13:36:41 +0000  3 files to consider
+2024-08-16 13:36:41 +0000  Symbols/
+2024-08-16 13:36:41 +0000  
+sent 198 bytes  received 26 bytes  448.00 bytes/sec
+2024-08-16 13:36:41 +0000  total size is 20.00M  speedup is 93635.82
+2024-08-16 13:36:41 +0000  /usr/bin/rsync exited with 0
+2024-08-16 13:36:41 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root' '/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Packages/Journey Admin Staging.ipa'
+2024-08-16 13:36:41 +0000  >>> Copying /var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root 
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/_CodeSignature/CodeResources ... 
+2024-08-16 13:36:41 +0000  15416 bytes for ./Payload/Journey Admin Staging.app/_CodeSignature/CodeResources
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/FirebaseCore_Privacy.bundle/PrivacyInfo.xcprivacy ... 
+2024-08-16 13:36:41 +0000  855 bytes for ./Payload/Journey Admin Staging.app/FirebaseCore_Privacy.bundle/PrivacyInfo.xcprivacy
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/FirebaseCore_Privacy.bundle/Info.plist ... 
+2024-08-16 13:36:41 +0000  788 bytes for ./Payload/Journey Admin Staging.app/FirebaseCore_Privacy.bundle/Info.plist
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/Journey Admin Staging ... 
+2024-08-16 13:36:41 +0000  8331552 bytes for ./Payload/Journey Admin Staging.app/Journey Admin Staging
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/RNFS_PrivacyInfo.bundle/PrivacyInfo.xcprivacy ... 
+840 bytes for ./Payload/Journey Admin Staging.app/RNFS_PrivacyInfo.bundle/PrivacyInfo.xcprivacy
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/RNFS_PrivacyInfo.bundle/Info.plist ... 
+779 bytes for ./Payload/Journey Admin Staging.app/RNFS_PrivacyInfo.bundle/Info.plist
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy ... 
+373 bytes for ./Payload/Journey Admin Staging.app/FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/FBLPromises_Privacy.bundle/Info.plist ... 
+784 bytes for ./Payload/Journey Admin Staging.app/FBLPromises_Privacy.bundle/Info.plist
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/Sentry.bundle/PrivacyInfo.xcprivacy ... 
+2024-08-16 13:36:41 +0000  2108 bytes for ./Payload/Journey Admin Staging.app/Sentry.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/Journey Admin Staging.app/Sentry.bundle/Info.plist ... 
+2024-08-16 13:36:41 +0000  757 bytes for ./Payload/Journey Admin Staging.app/Sentry.bundle/Info.plist
+copying file ./Payload/Journey Admin Staging.app/AppIcon60x60@2x.png ... 
+2024-08-16 13:36:41 +0000  1234 bytes for ./Payload/Journey Admin Staging.app/AppIcon60x60@2x.png
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/FirebaseCoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy ... 
+2024-08-16 13:36:41 +0000  855 bytes for ./Payload/Journey Admin Staging.app/FirebaseCoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/Journey Admin Staging.app/FirebaseCoreInternal_Privacy.bundle/Info.plist ... 
+804 bytes for ./Payload/Journey Admin Staging.app/FirebaseCoreInternal_Privacy.bundle/Info.plist
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/RNDeviceInfoPrivacyInfo.bundle/PrivacyInfo.xcprivacy ... 
+1159 bytes for ./Payload/Journey Admin Staging.app/RNDeviceInfoPrivacyInfo.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/Journey Admin Staging.app/RNDeviceInfoPrivacyInfo.bundle/Info.plist ... 
+2024-08-16 13:36:41 +0000  794 bytes for ./Payload/Journey Admin Staging.app/RNDeviceInfoPrivacyInfo.bundle/Info.plist
+copying file ./Payload/Journey Admin Staging.app/nanopb_Privacy.bundle/PrivacyInfo.xcprivacy ... 
+2024-08-16 13:36:41 +0000  374 bytes for ./Payload/Journey Admin Staging.app/nanopb_Privacy.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/Journey Admin Staging.app/nanopb_Privacy.bundle/Info.plist ... 
+2024-08-16 13:36:41 +0000  776 bytes for ./Payload/Journey Admin Staging.app/nanopb_Privacy.bundle/Info.plist
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/AccessibilityResources.bundle/en.lproj/Localizable.strings ... 
+518 bytes for ./Payload/Journey Admin Staging.app/AccessibilityResources.bundle/en.lproj/Localizable.strings
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/AccessibilityResources.bundle/Info.plist ... 
+791 bytes for ./Payload/Journey Admin Staging.app/AccessibilityResources.bundle/Info.plist
+copying file ./Payload/Journey Admin Staging.app/GoogleService-Info.plist ... 
+2024-08-16 13:36:41 +0000  483 bytes for ./Payload/Journey Admin Staging.app/GoogleService-Info.plist
+copying file ./Payload/Journey Admin Staging.app/Assets.car ... 
+2024-08-16 13:36:41 +0000  97631 bytes for ./Payload/Journey Admin Staging.app/Assets.car
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/FirebaseInstallations_Privacy.bundle/PrivacyInfo.xcprivacy ... 
+2024-08-16 13:36:41 +0000  1105 bytes for ./Payload/Journey Admin Staging.app/FirebaseInstallations_Privacy.bundle/PrivacyInfo.xcprivacy
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/FirebaseInstallations_Privacy.bundle/Info.plist ... 
+2024-08-16 13:36:41 +0000  806 bytes for ./Payload/Journey Admin Staging.app/FirebaseInstallations_Privacy.bundle/Info.plist
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/AppIcon76x76@2x~ipad.png ... 
+2024-08-16 13:36:41 +0000  1484 bytes for ./Payload/Journey Admin Staging.app/AppIcon76x76@2x~ipad.png
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy ... 
+2024-08-16 13:36:41 +0000  1289 bytes for ./Payload/Journey Admin Staging.app/GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/GoogleUtilities_Privacy.bundle/Info.plist ... 
+2024-08-16 13:36:41 +0000  793 bytes for ./Payload/Journey Admin Staging.app/GoogleUtilities_Privacy.bundle/Info.plist
+2024-08-16 13:36:41 +0000  copying file ./Payload/Journey Admin Staging.app/main.jsbundle ... 
+2024-08-16 13:36:42 +0000  10265144 bytes for ./Payload/Journey Admin Staging.app/main.jsbundle
+2024-08-16 13:36:42 +0000  copying file ./Payload/Journey Admin Staging.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2024-08-16 13:36:42 +0000  1637 bytes for ./Payload/Journey Admin Staging.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Journey Admin Staging.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2024-08-16 13:36:42 +0000  924 bytes for ./Payload/Journey Admin Staging.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Journey Admin Staging.app/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/Journey Admin Staging.app/LaunchScreen.storyboardc/Info.plist
+2024-08-16 13:36:42 +0000  copying file ./Payload/Journey Admin Staging.app/Frameworks/hermes.framework/_CodeSignature/CodeResources ... 
+2024-08-16 13:36:42 +0000  1798 bytes for ./Payload/Journey Admin Staging.app/Frameworks/hermes.framework/_CodeSignature/CodeResources
+copying file ./Payload/Journey Admin Staging.app/Frameworks/hermes.framework/hermes ... 
+2024-08-16 13:36:42 +0000  3238656 bytes for ./Payload/Journey Admin Staging.app/Frameworks/hermes.framework/hermes
+2024-08-16 13:36:42 +0000  copying file ./Payload/Journey Admin Staging.app/Frameworks/hermes.framework/Info.plist ... 
+815 bytes for ./Payload/Journey Admin Staging.app/Frameworks/hermes.framework/Info.plist
+copying file ./Payload/Journey Admin Staging.app/embedded.mobileprovision ... 
+2024-08-16 13:36:42 +0000  12582 bytes for ./Payload/Journey Admin Staging.app/embedded.mobileprovision
+2024-08-16 13:36:42 +0000  copying file ./Payload/Journey Admin Staging.app/assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png ... 
+2024-08-16 13:36:42 +0000  761 bytes for ./Payload/Journey Admin Staging.app/assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png
+copying file ./Payload/Journey Admin Staging.app/assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png ... 
+2024-08-16 13:36:42 +0000  405 bytes for ./Payload/Journey Admin Staging.app/assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png
+copying file ./Payload/Journey Admin Staging.app/assets/node_modules/@react-navigation/elements/src/assets/back-icon.png ... 
+2024-08-16 13:36:42 +0000  290 bytes for ./Payload/Journey Admin Staging.app/assets/node_modules/@react-navigation/elements/src/assets/back-icon.png
+copying file ./Payload/Journey Admin Staging.app/assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png ... 
+2024-08-16 13:36:42 +0000  913 bytes for ./Payload/Journey Admin Staging.app/assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png
+2024-08-16 13:36:42 +0000  copying file ./Payload/Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/calendar/img/previous@2x.png ... 
+2024-08-16 13:36:42 +0000  458 bytes for ./Payload/Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/calendar/img/previous@2x.png
+copying file ./Payload/Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/calendar/img/next@2x.png ... 
+2024-08-16 13:36:42 +0000  462 bytes for ./Payload/Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/calendar/img/next@2x.png
+2024-08-16 13:36:42 +0000  copying file ./Payload/Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/img/down@3x.png ... 
+2024-08-16 13:36:42 +0000  508 bytes for ./Payload/Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/img/down@3x.png
+copying file ./Payload/Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/img/down@2x.png ... 
+2024-08-16 13:36:42 +0000  354 bytes for ./Payload/Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/img/down@2x.png
+copying file ./Payload/Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/img/up.png ... 
+2024-08-16 13:36:42 +0000  215 bytes for ./Payload/Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/img/up.png
+copying file ./Payload/Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/img/down.png ... 
+2024-08-16 13:36:42 +0000  208 bytes for ./Payload/Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/img/down.png
+copying file ./Payload/Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/img/up@2x.png ... 
+2024-08-16 13:36:42 +0000  347 bytes for ./Payload/Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/img/up@2x.png
+copying file ./Payload/Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/img/up@3x.png ... 
+2024-08-16 13:36:42 +0000  504 bytes for ./Payload/Journey Admin Staging.app/assets/node_modules/react-native-calendars/src/img/up@3x.png
+2024-08-16 13:36:42 +0000  copying file ./Payload/Journey Admin Staging.app/assets/src/assets/png/productPlaceholder.png ... 
+2024-08-16 13:36:42 +0000  975 bytes for ./Payload/Journey Admin Staging.app/assets/src/assets/png/productPlaceholder.png
+copying file ./Payload/Journey Admin Staging.app/assets/src/assets/png/projectPlaceholder.png ... 
+2024-08-16 13:36:42 +0000  3740 bytes for ./Payload/Journey Admin Staging.app/assets/src/assets/png/projectPlaceholder.png
+2024-08-16 13:36:42 +0000  copying file ./Payload/Journey Admin Staging.app/Info.plist ... 
+2024-08-16 13:36:42 +0000  1765 bytes for ./Payload/Journey Admin Staging.app/Info.plist
+copying file ./Payload/Journey Admin Staging.app/RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy ... 
+2024-08-16 13:36:42 +0000  512 bytes for ./Payload/Journey Admin Staging.app/RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/Journey Admin Staging.app/RNCAsyncStorage_resources.bundle/Info.plist ... 
+2024-08-16 13:36:42 +0000  797 bytes for ./Payload/Journey Admin Staging.app/RNCAsyncStorage_resources.bundle/Info.plist
+2024-08-16 13:36:42 +0000  copying file ./Payload/Journey Admin Staging.app/PkgInfo ... 
+8 bytes for ./Payload/Journey Admin Staging.app/PkgInfo
+2024-08-16 13:36:42 +0000  copying file ./Symbols/6386AE71-F9DD-3375-9846-7D64254A216F.symbols ... 
+2024-08-16 13:36:42 +0000  20685964 bytes for ./Symbols/6386AE71-F9DD-3375-9846-7D64254A216F.symbols
+2024-08-16 13:36:42 +0000  copying file ./Symbols/CF3FB7B9-A92E-31A8-B44F-3A08D561C32A.symbols ... 
+2024-08-16 13:36:42 +0000  288460 bytes for ./Symbols/CF3FB7B9-A92E-31A8-B44F-3A08D561C32A.symbols
+2024-08-16 13:36:42 +0000  /usr/bin/ditto exited with 0
+2024-08-16 13:36:42 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2024-08-16 13:36:42 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2024-08-16 13:36:42 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2024-08-16 13:36:42 +0000  IDEDistributionItem init <DVTFilePath:0x600085e68000:'/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app/Frameworks/hermes.framework'>
+2024-08-16 13:36:42 +0000  IDEDistributionItem init <DVTFilePath:0x60000828cf00:'/var/folders/bj/w4s512c56mq2n5642zj2fvcm0000gn/T/XcodeDistPipeline.~~~1C9SXz/Root/Payload/Journey Admin Staging.app'>
+2024-08-16 13:36:42 +0000  Processing step: IDEDistributionCreateManifestStep
+2024-08-16 13:36:42 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

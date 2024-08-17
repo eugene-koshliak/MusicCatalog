@@ -2,12 +2,17 @@ import {useInfiniteQuery} from '@tanstack/react-query';
 
 import api, {API_KEY} from '../api';
 import {AxiosError} from 'axios';
+import {
+  IUserTopAlbum,
+  IUserTopAlbumsDto,
+  mapUserTopAlbums,
+} from '../models/UserTopAlbumsModel';
 
-type DataWithPage = {data: any[]; nextPage: number};
+type DataWithPage = {data: IUserTopAlbum[]; nextPage: number};
 
 const useGetUserTopAlbums = (pageSize: number) => {
   const fetchAlbums = async ({pageParam = 1}) => {
-    const response = await api.get('', {
+    const response = await api.get<IUserTopAlbumsDto>('', {
       params: {
         method: 'user.gettopalbums',
         user: 'yevhen_koshliak',
@@ -18,7 +23,7 @@ const useGetUserTopAlbums = (pageSize: number) => {
     });
 
     return {
-      data: response ?? [],
+      data: mapUserTopAlbums(response.data),
       nextPage: pageParam + 1,
     };
   };
@@ -32,7 +37,7 @@ const useGetUserTopAlbums = (pageSize: number) => {
     fetchNextPage,
     error,
     refetch,
-  } = useInfiniteQuery<DataWithPage, AxiosError>({
+  } = useInfiniteQuery<DataWithPage, IUserTopAlbum, AxiosError>({
     queryKey: [],
     queryFn: fetchAlbums,
     getNextPageParam: lastPage => {
@@ -43,8 +48,10 @@ const useGetUserTopAlbums = (pageSize: number) => {
     },
   });
 
+  const flatData = data?.pages.map(p => p.data).flat();
+
   return {
-    data,
+    data: flatData,
     isLoading,
     isFetching,
     isFetchingNextPage,

@@ -5,14 +5,15 @@ import {AxiosError} from 'axios';
 
 type DataWithPage = {data: any[]; nextPage: number};
 
-const useGetTopArtists = (pageSize: number) => {
-  const fetchArtists = async ({pageParam = 1}) => {
+const useGetUserTopAlbums = (pageSize: number) => {
+  const fetchAlbums = async ({pageParam = 1}) => {
     const response = await api.get('', {
       params: {
-        method: 'chart.gettopartists',
+        method: 'user.gettopalbums',
+        user: 'yevhen_koshliak',
         api_key: API_KEY,
         format: 'json',
-        page: pageSize,
+        limit: pageSize,
       },
     });
 
@@ -33,7 +34,7 @@ const useGetTopArtists = (pageSize: number) => {
     refetch,
   } = useInfiniteQuery<DataWithPage, AxiosError>({
     queryKey: [],
-    queryFn: fetchArtists,
+    queryFn: fetchAlbums,
     getNextPageParam: lastPage => {
       if (lastPage.data.length < pageSize) {
         return undefined;
@@ -54,4 +55,4 @@ const useGetTopArtists = (pageSize: number) => {
   };
 };
 
-export default useGetTopArtists;
+export default useGetUserTopAlbums;

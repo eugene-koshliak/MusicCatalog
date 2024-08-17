@@ -1,9 +1,9 @@
 import {FC} from 'react';
-import useGetTopArtists from '../../data/hooks/useGetTopArtists';
+import useGetUserTopAlbums from '../../data/hooks/useGetUserTopAlbums';
 import {Text} from 'react-native';
 
 const HomeScreen: FC = () => {
-  const {data} = useGetTopArtists(10);
+  const {data} = useGetUserTopAlbums(10);
 
   return <Text>{'HOME'}</Text>;
 };

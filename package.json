@@ -33,6 +33,7 @@
     "@react-native/eslint-config": "nightly",
     "@react-native/metro-config": "nightly",
     "@react-native/typescript-config": "nightly",
+    "@tanstack/eslint-plugin-query": "^5.51.15",
     "@types/react": "^18.2.6",
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.6.3",

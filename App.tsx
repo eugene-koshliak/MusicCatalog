@@ -1,18 +1,22 @@
 import React from 'react';
-
+import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
 import {SafeAreaView, StatusBar, StyleSheet} from 'react-native';
 
 import MainNavigator from './src/navigation';
 import {NavigationContainer} from '@react-navigation/native';
 
 const App: React.FC = () => {
+  const queryClient = new QueryClient();
+
   return (
-    <SafeAreaView style={styles.container}>
-      <StatusBar />
-      <NavigationContainer>
-        <MainNavigator />
-      </NavigationContainer>
-    </SafeAreaView>
+    <QueryClientProvider client={queryClient}>
+      <SafeAreaView style={styles.container}>
+        <StatusBar />
+        <NavigationContainer>
+          <MainNavigator />
+        </NavigationContainer>
+      </SafeAreaView>
+    </QueryClientProvider>
   );
 };
 

@@ -49,6 +49,7 @@ export const mapUserTopAlbums = (
       '',
     url: album.url,
     playCount: album.playcount,
+    id: album.mbid,
     name: album.name,
   }));
 };

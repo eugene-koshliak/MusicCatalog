@@ -5,6 +5,10 @@ import {SafeAreaView, StatusBar, StyleSheet} from 'react-native';
 import MainNavigator from './src/navigation';
 import {NavigationContainer} from '@react-navigation/native';
 
+if (__DEV__) {
+  require('./ReactotronConfig');
+}
+
 const App: React.FC = () => {
   const queryClient = new QueryClient();
 

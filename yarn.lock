@@ -3249,6 +3249,7 @@ __metadata:
     react-native-safe-area-context: "npm:^4.10.8"
     react-native-screens: "npm:^3.34.0"
     react-test-renderer: "npm:19.0.0-rc-fb9a90fa48-20240614"
+    reactotron-react-native: "npm:^5.1.7"
     typescript: "npm:5.0.4"
     yarn: "npm:^1.22.22"
   languageName: unknown
@@ -7541,6 +7542,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mitt@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "mitt@npm:3.0.1"
+  checksum: 10/287c70d8e73ffc25624261a4989c783768aed95ecb60900f051d180cf83e311e3e59865bfd6e9d029cdb149dc20ba2f128a805e9429c5c4ce33b1416c65bbd14
+  languageName: node
+  linkType: hard
+
 "mkdirp@npm:^0.5.1":
   version: 0.5.6
   resolution: "mkdirp@npm:0.5.6"
@@ -8307,6 +8315,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-flipper@npm:^0.164.0":
+  version: 0.164.0
+  resolution: "react-native-flipper@npm:0.164.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-native: ">0.62.0"
+  checksum: 10/2653c672dcd9a380f6e022ab882d38a3f62613f9967206be216f424353180bd14e2213706470e49c43e8494616eeb506132cd2d480dded8716217a9d55f25963
+  languageName: node
+  linkType: hard
+
 "react-native-gesture-handler@npm:^2.18.1":
   version: 2.18.1
   resolution: "react-native-gesture-handler@npm:2.18.1"
@@ -8422,6 +8440,38 @@ __metadata:
   version: 19.0.0-rc-fb9a90fa48-20240614
   resolution: "react@npm:19.0.0-rc-fb9a90fa48-20240614"
   checksum: 10/a1e9eb61546620c3dc306969bf711969f22b9ca87e07e8dc728015dafdd628c4d32cd2e6e757b27a4876cb22f0d0ae892944445de02833cd874582f9c9811bf2
+  languageName: node
+  linkType: hard
+
+"reactotron-core-client@npm:2.9.3":
+  version: 2.9.3
+  resolution: "reactotron-core-client@npm:2.9.3"
+  dependencies:
+    reactotron-core-contract: "npm:0.2.3"
+  checksum: 10/fa0d559f358bb590ad90828f77bc9433320d912c3fd380c9696aadb51e6379d8c117ffcde1ad8731e41fa36d453c281131277ab6e54e19cfa2dc0694a5524ff8
+  languageName: node
+  linkType: hard
+
+"reactotron-core-contract@npm:0.2.3":
+  version: 0.2.3
+  resolution: "reactotron-core-contract@npm:0.2.3"
+  checksum: 10/dba7df0ea83c0f7e157f5928b9d46bdf9a4efde2a4749ecc532580052c63ce0e0ad3b1149fdb7d83d9438525e2d9f423f7b22ba6d1868165494eb59ba08bd11e
+  languageName: node
+  linkType: hard
+
+"reactotron-react-native@npm:^5.1.7":
+  version: 5.1.7
+  resolution: "reactotron-react-native@npm:5.1.7"
+  dependencies:
+    mitt: "npm:^3.0.1"
+    react-native-flipper: "npm:^0.164.0"
+    reactotron-core-client: "npm:2.9.3"
+  peerDependencies:
+    react-native: ">=0.40.0"
+  dependenciesMeta:
+    react-native-flipper:
+      optional: true
+  checksum: 10/5400caf428fdb3b876b46fc9231365aaa6a1782dabfc98b232f73f9bfa430200c28e7e42e79479a209c2a349e7e1136442b461f45c3db493aaa14e61f235b1cd
   languageName: node
   linkType: hard
 

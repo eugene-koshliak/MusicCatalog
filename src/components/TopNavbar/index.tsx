@@ -1,17 +1,20 @@
 import React, {FC} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {Pressable, StyleSheet, Text, View} from 'react-native';
 import BackArrowIcon from '../../assets/icons/BackArrowIcon';
+import {useNavigation} from '@react-navigation/native';
 
 export interface Props {
   title?: string;
 }
 
 const TopNavbar: FC<Props> = ({title}) => {
+  const {goBack} = useNavigation();
+
   return (
     <View style={styles.container}>
-      <View style={styles.leftElement}>
+      <Pressable style={styles.leftElement} onPress={goBack}>
         <BackArrowIcon />
-      </View>
+      </Pressable>
       {title && title.length > 0 ? (
         <Text numberOfLines={1} ellipsizeMode="tail" style={styles.title}>
           {title}
@@ -27,7 +30,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    paddingHorizontal: 16,
     paddingBottom: 10,
   },
   leftElement: {

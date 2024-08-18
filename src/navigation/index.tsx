@@ -18,6 +18,7 @@ const MainNavigator: React.FC = () => {
       <MainStack.Screen
         name={MainStackScreen.ALBUM_DETAILS_SCREEN}
         component={AlbumDetailsScreen}
+        options={{headerShown: false}}
       />
     </MainStack.Navigator>
   );

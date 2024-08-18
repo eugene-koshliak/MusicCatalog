@@ -35,6 +35,7 @@ export interface IAlbumDetailsDto {
 }
 
 export interface IAlbumTrack {
+  id: string;
   duration: number;
   url: string;
   name: string;
@@ -64,7 +65,8 @@ export const mapAlbumDetails = (
       )?.['#text'] ?? '',
     tags: albumDetailsDto.album.tags.tag.map(tag => tag.name),
     name: albumDetailsDto.album.name,
-    tracks: albumDetailsDto.album.tracks.track.map(track => ({
+    tracks: albumDetailsDto.album.tracks.track.map((track, index) => ({
+      id: `${track.artist.mbid}-${index}`,
       duration: track.duration,
       url: track.streamable.fulltrack,
       name: track.name,

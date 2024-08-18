@@ -2,9 +2,9 @@ import {createStackNavigator} from '@react-navigation/stack';
 import React from 'react';
 
 import {MainStackScreen} from './types';
-import HomeScreen from '../screens/HomeScreen';
-import AlbumDetailsScreen from '../screens/AlbumDetailsScreen';
-import ArtistDetailsScreen from '../screens/ArtistDetailsScreen';
+import HomeScreen from '../../screens/HomeScreen';
+import AlbumDetailsScreen from '../../screens/AlbumDetailsScreen';
+import ArtistDetailsScreen from '../../screens/ArtistDetailsScreen';
 
 const MainStack = createStackNavigator();
 

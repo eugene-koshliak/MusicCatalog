@@ -4,7 +4,10 @@ import {Image, Pressable, StyleSheet, Text, View} from 'react-native';
 import {ITopAlbum} from '../../../data/models/TopAlbumsModel';
 import {useNavigation} from '@react-navigation/native';
 import {NativeStackNavigationProp} from 'react-native-screens/lib/typescript/native-stack/types';
-import {MainStackParamList, MainStackScreen} from '../../../navigation/types';
+import {
+  MainStackParamList,
+  MainStackScreen,
+} from '../../../navigation/Main/types';
 import InfoIcon from '../../../assets/icons/InfoIcon';
 
 interface Props {

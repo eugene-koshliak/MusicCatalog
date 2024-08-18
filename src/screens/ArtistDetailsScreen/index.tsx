@@ -3,7 +3,7 @@ import {Image, StyleSheet, Text, View, ScrollView} from 'react-native';
 import TopNavbar from '../../components/TopNavbar';
 import useGetArtistInfo from '../../data/hooks/useGetArtistInfo';
 import {RouteProp, useRoute} from '@react-navigation/native';
-import {MainStackParamList, MainStackScreen} from '../../navigation/types';
+import {MainStackParamList, MainStackScreen} from '../../navigation/Main/types';
 import HtmlText from '../../components/HtmlText';
 
 const ArtistDetailsScreen: FC = () => {

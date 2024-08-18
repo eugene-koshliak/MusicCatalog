@@ -2,7 +2,7 @@ import React, {FC} from 'react';
 import {ActivityIndicator, StyleSheet, Text, View} from 'react-native';
 import useGetAlbumDetails from '../../data/hooks/useGetAlbumDetails';
 import {RouteProp, useRoute} from '@react-navigation/native';
-import {MainStackParamList, MainStackScreen} from '../../navigation/types';
+import {MainStackParamList, MainStackScreen} from '../../navigation/Main/types';
 import TopNavbar from '../../components/TopNavbar';
 import {FlatList} from 'react-native-gesture-handler';
 import TrackItem from './components/TrackItem';

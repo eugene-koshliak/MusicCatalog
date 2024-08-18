@@ -1,8 +1,9 @@
-enum EImageSize {
+export enum EImageSize {
   SMALL = 'small',
   MEDIUM = 'medium',
   LARGE = 'large',
   EXTRALARGE = 'extralarge',
+  MEGA = 'mega',
 }
 
 export interface IUserTopAlbumsDto {

@@ -6,7 +6,7 @@ export enum EImageSize {
   MEGA = 'mega',
 }
 
-export interface IUserTopAlbumsDto {
+export interface ITopAlbumsDto {
   topalbums: {
     album: {
       artist: {
@@ -26,7 +26,7 @@ export interface IUserTopAlbumsDto {
   };
 }
 
-export interface IUserTopAlbum {
+export interface ITopAlbum {
   artist: {
     url: string;
     name: string;
@@ -37,16 +37,16 @@ export interface IUserTopAlbum {
   name: string;
 }
 
-export const mapUserTopAlbums = (
-  userTopAlbumsDto: IUserTopAlbumsDto,
-): IUserTopAlbum[] => {
+export const mapTopAlbum = (userTopAlbumsDto: ITopAlbumsDto): ITopAlbum[] => {
   return userTopAlbumsDto.topalbums.album.map(album => ({
     artist: {
       url: album.artist.url,
       name: album.artist.name,
     },
     imageUrl:
-      album.image.find(item => item.size === EImageSize.LARGE)?.['#text'] ?? '',
+      album.image.find(item => item.size === EImageSize.EXTRALARGE)?.[
+        '#text'
+      ] ?? '',
     url: album.url,
     playCount: album.playcount,
     id: album.mbid,

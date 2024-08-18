@@ -10,12 +10,12 @@ import {
 
 type DataWithPage = {data: ITopAlbum[]; nextPage: number};
 
-const useGetUserTopAlbums = (pageSize: number) => {
-  const fetchAlbums = async ({pageParam = 1}) => {
+const useGetArtistTopAlbums = (artistName: string, pageSize: number) => {
+  const fetchArtistAlbums = async ({pageParam = 1}) => {
     const response = await api.get<ITopAlbumsDto>('', {
       params: {
-        method: 'user.gettopalbums',
-        user: 'yevhen_koshliak',
+        method: 'artist.gettopalbums',
+        artist: artistName,
         api_key: API_KEY,
         format: 'json',
         limit: pageSize,
@@ -38,14 +38,15 @@ const useGetUserTopAlbums = (pageSize: number) => {
     error,
     refetch,
   } = useInfiniteQuery<DataWithPage, ITopAlbum, AxiosError>({
-    queryKey: [pageSize],
-    queryFn: fetchAlbums,
+    queryKey: [artistName, pageSize],
+    queryFn: fetchArtistAlbums,
     getNextPageParam: lastPage => {
       if (lastPage.data.length < pageSize) {
         return undefined;
       }
       return lastPage.nextPage;
     },
+    enabled: !!artistName,
   });
 
   const flatData = data?.pages.map(p => p.data).flat();
@@ -62,4 +63,4 @@ const useGetUserTopAlbums = (pageSize: number) => {
   };
 };
 
-export default useGetUserTopAlbums;
+export default useGetArtistTopAlbums;

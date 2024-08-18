@@ -12,8 +12,12 @@ const ListHeaderComponent: FC<Props> = ({imageUrl, artistName, albumName}) => {
     <View style={styles.container}>
       {imageUrl && <Image source={{uri: imageUrl}} style={styles.image} />}
       <View style={styles.labelContainer}>
-        <Text style={styles.artistName}>{artistName}</Text>
-        <Text style={styles.albumName}>{albumName}</Text>
+        <Text style={styles.artistName} numberOfLines={2}>
+          {artistName}
+        </Text>
+        <Text style={styles.albumName} numberOfLines={2}>
+          {albumName}
+        </Text>
       </View>
     </View>
   );

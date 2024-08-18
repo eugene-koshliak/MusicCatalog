@@ -45,8 +45,7 @@ export const mapUserTopAlbums = (
       name: album.artist.name,
     },
     imageUrl:
-      album.image.find(item => item.size === EImageSize.MEDIUM)?.['#text'] ??
-      '',
+      album.image.find(item => item.size === EImageSize.LARGE)?.['#text'] ?? '',
     url: album.url,
     playCount: album.playcount,
     id: album.mbid,

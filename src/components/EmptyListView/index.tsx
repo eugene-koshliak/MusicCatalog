@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 
-const EmptyList: FC = () => {
+const EmptyListView: FC = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.message}>{'No data found'}</Text>
@@ -21,4 +21,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default EmptyList;
+export default EmptyListView;

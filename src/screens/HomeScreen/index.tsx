@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import AlbumItem from './components/AlbumItem';
 import useGetArtistTopAlbums from '../../data/hooks/useGetArtistTopAlbums';
-import EmptyList from '../../components/EmptyList';
+import EmptyListView from '../../components/EmptyListView';
 
 const HomeScreen: FC = () => {
   const [search, setSearch] = useState('');
@@ -61,11 +61,12 @@ const HomeScreen: FC = () => {
         />
       ) : (
         <FlatList
+          contentContainerStyle={styles.listContainer}
           data={listData}
           keyExtractor={item => item.id}
           renderItem={({item}) => <AlbumItem item={item} />}
           showsVerticalScrollIndicator={false}
-          ListEmptyComponent={<EmptyList />}
+          ListEmptyComponent={<EmptyListView />}
         />
       )}
     </Pressable>
@@ -77,6 +78,9 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'white',
     padding: 16,
+  },
+  listContainer: {
+    flexGrow: 1,
   },
   searchContainer: {
     marginTop: 16,

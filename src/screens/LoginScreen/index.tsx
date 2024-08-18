@@ -11,10 +11,13 @@ import {AuthContext} from '../../context/AuthContext';
 import {useNavigation} from '@react-navigation/native';
 import {MainStackParamList, MainStackScreen} from '../../navigation/Main/types';
 import {NativeStackNavigationProp} from 'react-native-screens/lib/typescript/native-stack/types';
+import {useToast} from 'react-native-toast-notifications';
 
 const LoginScreen: FC = () => {
   const {navigate} =
     useNavigation<NativeStackNavigationProp<MainStackParamList>>();
+
+  const toast = useToast();
 
   const {
     userLogin,
@@ -25,6 +28,12 @@ const LoginScreen: FC = () => {
   } = useContext(AuthContext);
 
   const onLoginPress = () => {
+    if (!userLogin || !userPassword) {
+      toast.show('Please fill login and password');
+
+      return;
+    }
+
     setIsAuthorized(true);
     navigate(MainStackScreen.HOME_SCREEN);
   };

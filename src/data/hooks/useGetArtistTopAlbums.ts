@@ -2,11 +2,7 @@ import {useInfiniteQuery} from '@tanstack/react-query';
 
 import api, {API_KEY} from '../api';
 import {AxiosError} from 'axios';
-import {
-  ITopAlbum,
-  ITopAlbumsDto,
-  mapTopAlbum,
-} from '../models/UserTopAlbumsModel';
+import {ITopAlbum, ITopAlbumsDto, mapTopAlbum} from '../models/TopAlbumsModel';
 
 type DataWithPage = {data: ITopAlbum[]; nextPage: number};
 

@@ -1239,6 +1239,8 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
+  - react-native-render-html (6.3.4):
+    - React-Core
   - react-native-safe-area-context (4.10.8):
     - DoubleConversion
     - glog
@@ -1722,6 +1724,7 @@ DEPENDENCIES:
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - React-microtasksnativemodule (from `../node_modules/react-native/ReactCommon/react/nativemodule/microtasks`)
+  - react-native-render-html (from `../node_modules/react-native-render-html`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - React-nativeconfig (from `../node_modules/react-native/ReactCommon`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
@@ -1831,6 +1834,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   React-microtasksnativemodule:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/microtasks"
+  react-native-render-html:
+    :path: "../node_modules/react-native-render-html"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
   React-nativeconfig:
@@ -1932,6 +1937,7 @@ SPEC CHECKSUMS:
   React-logger: 581cacb64bfadb79012b516b53d0f9c44ca634b0
   React-Mapbuffer: 2922f4f02d8cc4343f05a023f83f6cc0be0203d6
   React-microtasksnativemodule: f8e00ae82b7c2891a27137e0d54218ddb8fcf1b1
+  react-native-render-html: 984dfe2294163d04bf5fe25d7c9f122e60e05ebe
   react-native-safe-area-context: 99c581aab5411c047b2116e29ea12d8ca3059593
   React-nativeconfig: 1fad7e50baf81db43dccf748fa0dda177ffac9de
   React-NativeModulesApple: f3f4fa3a95a1860340f4fe36d03865c02ed49f31

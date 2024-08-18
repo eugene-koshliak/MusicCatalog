@@ -1,4 +1,4 @@
-import {EImageSize} from './UserTopAlbumsModel';
+import {EImageSize} from './TopAlbumsModel';
 
 export interface IAlbumDetailsDto {
   album: {

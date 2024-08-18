@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 
 import {Image, Pressable, StyleSheet, Text, View} from 'react-native';
-import {ITopAlbum} from '../../../data/models/UserTopAlbumsModel';
+import {ITopAlbum} from '../../../data/models/TopAlbumsModel';
 import {useNavigation} from '@react-navigation/native';
 import {NativeStackNavigationProp} from 'react-native-screens/lib/typescript/native-stack/types';
 import {MainStackParamList, MainStackScreen} from '../../../navigation/types';

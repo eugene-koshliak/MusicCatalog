@@ -3310,6 +3310,7 @@ __metadata:
     jest: "npm:^29.6.3"
     prettier: "npm:2.8.8"
     react: "npm:19.0.0-rc-fb9a90fa48-20240614"
+    react-combine-providers: "npm:^0.9.6"
     react-native: "npm:nightly"
     react-native-gesture-handler: "npm:^2.18.1"
     react-native-render-html: "npm:^6.3.4"
@@ -8541,6 +8542,15 @@ __metadata:
   version: 1.2.1
   resolution: "range-parser@npm:1.2.1"
   checksum: 10/ce21ef2a2dd40506893157970dc76e835c78cf56437e26e19189c48d5291e7279314477b06ac38abd6a401b661a6840f7b03bd0b1249da9b691deeaa15872c26
+  languageName: node
+  linkType: hard
+
+"react-combine-providers@npm:^0.9.6":
+  version: 0.9.6
+  resolution: "react-combine-providers@npm:0.9.6"
+  peerDependencies:
+    react: ">=16"
+  checksum: 10/7be5970d92fa5fbfe34449214169b3c236cdebcb4d846d5076e52a6ec04970ed83800dc90793962b05824385b2b50fd5e22fa2109b72ff01e204cf9ac7ba3e9b
   languageName: node
   linkType: hard
 

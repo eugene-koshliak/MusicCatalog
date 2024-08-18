@@ -5,28 +5,35 @@ import {MainStackScreen} from './types';
 import HomeScreen from '../../screens/HomeScreen';
 import AlbumDetailsScreen from '../../screens/AlbumDetailsScreen';
 import ArtistDetailsScreen from '../../screens/ArtistDetailsScreen';
+import AuthNavigator from '../Auth';
 
-const MainStack = createStackNavigator();
+const Stack = createStackNavigator();
 
 const MainNavigator: React.FC = () => {
   return (
-    <MainStack.Navigator initialRouteName={MainStackScreen.HOME_SCREEN}>
-      <MainStack.Screen
+    <Stack.Navigator initialRouteName={MainStackScreen.LOGIN_SCREEN}>
+      <Stack.Screen
+        name={MainStackScreen.LOGIN_SCREEN}
+        component={AuthNavigator}
+        options={{headerShown: false}}
+      />
+
+      <Stack.Screen
         name={MainStackScreen.HOME_SCREEN}
         component={HomeScreen}
         options={{headerShown: false}}
       />
-      <MainStack.Screen
+      <Stack.Screen
         name={MainStackScreen.ALBUM_DETAILS_SCREEN}
         component={AlbumDetailsScreen}
         options={{headerShown: false}}
       />
-      <MainStack.Screen
+      <Stack.Screen
         name={MainStackScreen.ARTIST_DETAILS_SCREEN}
         component={ArtistDetailsScreen}
         options={{headerShown: false}}
       />
-    </MainStack.Navigator>
+    </Stack.Navigator>
   );
 };
 

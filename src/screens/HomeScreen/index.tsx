@@ -50,6 +50,7 @@ const HomeScreen: FC = () => {
       <TextInput
         style={styles.searchContainer}
         placeholder={'Search'}
+        value={search}
         onChangeText={setSearch}
       />
       {isLoading ? (

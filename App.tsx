@@ -1,26 +1,32 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
 import {SafeAreaView, StatusBar, StyleSheet} from 'react-native';
 
-import MainNavigator from './src/navigation';
+import MainNavigator from './src/navigation/Main';
 import {NavigationContainer} from '@react-navigation/native';
+import {AuthContext} from './src/context/AuthContext';
+import AuthNavigator from './src/navigation/Auth';
+import {AppContextProviders} from './src/context/AppContextProvider';
 
 if (__DEV__) {
   require('./ReactotronConfig');
 }
 
 const App: React.FC = () => {
+  const {isAuthorized} = useContext(AuthContext);
   const queryClient = new QueryClient();
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <SafeAreaView style={styles.container}>
-        <StatusBar />
-        <NavigationContainer>
-          <MainNavigator />
-        </NavigationContainer>
-      </SafeAreaView>
-    </QueryClientProvider>
+    <AppContextProviders>
+      <QueryClientProvider client={queryClient}>
+        <SafeAreaView style={styles.container}>
+          <StatusBar />
+          <NavigationContainer>
+            <MainNavigator />
+          </NavigationContainer>
+        </SafeAreaView>
+      </QueryClientProvider>
+    </AppContextProviders>
   );
 };
 

@@ -1,4 +1,4 @@
-import React, {FC, useState} from 'react';
+import React, {FC, useMemo, useState} from 'react';
 import useGetUserTopAlbums from '../../data/hooks/useGetUserTopAlbums';
 import {
   StyleSheet,
@@ -10,17 +10,40 @@ import {
 } from 'react-native';
 import AlbumItem from './components/AlbumItem';
 import useGetArtistTopAlbums from '../../data/hooks/useGetArtistTopAlbums';
+import EmptyList from '../../components/EmptyList';
 
 const HomeScreen: FC = () => {
   const [search, setSearch] = useState('');
 
-  const {data: userAlbums, isLoading: isUserAlbumsLoading} =
-    useGetUserTopAlbums(10);
-  const {data: artistAlbums, isLoading: isArtistAlbumsLoading} =
-    useGetArtistTopAlbums(search, 10);
+  const {
+    data: userAlbums,
+    isLoading: isUserAlbumsLoading,
+    error: userAlbumsError,
+  } = useGetUserTopAlbums(10);
+  const {
+    data: artistAlbums,
+    isLoading: isArtistAlbumsLoading,
+    error: artistAlbumsError,
+  } = useGetArtistTopAlbums(search, 10);
 
-  const listData = artistAlbums ?? userAlbums;
   const isLoading = isUserAlbumsLoading || isArtistAlbumsLoading;
+  const error = userAlbumsError || artistAlbumsError;
+
+  const listData = useMemo(() => {
+    if (error) {
+      return [];
+    }
+
+    if (artistAlbums) {
+      return artistAlbums;
+    }
+
+    if (userAlbums) {
+      return userAlbums;
+    }
+
+    return [];
+  }, [artistAlbums, userAlbums, error]);
 
   return (
     <Pressable style={styles.container} onPress={Keyboard.dismiss}>
@@ -41,6 +64,7 @@ const HomeScreen: FC = () => {
           keyExtractor={item => item.id}
           renderItem={({item}) => <AlbumItem item={item} />}
           showsVerticalScrollIndicator={false}
+          ListEmptyComponent={<EmptyList />}
         />
       )}
     </Pressable>

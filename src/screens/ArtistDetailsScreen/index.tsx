@@ -37,7 +37,7 @@ const ArtistDetailsScreen: FC = () => {
           </View>
         </View>
 
-        <HtmlText html={data?.bio.content} />
+        {!!data?.bio.content && <HtmlText html={data?.bio.content} />}
       </ScrollView>
     </View>
   );

@@ -5,6 +5,7 @@ import {ITopAlbum} from '../../../data/models/UserTopAlbumsModel';
 import {useNavigation} from '@react-navigation/native';
 import {NativeStackNavigationProp} from 'react-native-screens/lib/typescript/native-stack/types';
 import {MainStackParamList, MainStackScreen} from '../../../navigation/types';
+import InfoIcon from '../../../assets/icons/InfoIcon';
 
 interface Props {
   item: ITopAlbum;
@@ -15,10 +16,15 @@ const AlbumItem: FC<Props> = ({item}) => {
     useNavigation<NativeStackNavigationProp<MainStackParamList>>();
 
   const onAlbumPress = () => {
-    console.log('-------item', item);
     navigate(MainStackScreen.ALBUM_DETAILS_SCREEN, {
       artistName: item.artist.name,
       albumName: item.name,
+    });
+  };
+
+  const onInfoPress = () => {
+    navigate(MainStackScreen.ARTIST_DETAILS_SCREEN, {
+      artistName: item.artist.name,
     });
   };
 
@@ -36,9 +42,14 @@ const AlbumItem: FC<Props> = ({item}) => {
         </View>
       )}
       <View style={styles.titleContainer}>
-        <Text style={styles.albumName}>{item.name}</Text>
-        <Text style={styles.artistName}>{item.artist.name}</Text>
+        <Text style={styles.albumName} numberOfLines={1}>
+          {item.name}
+        </Text>
+        <Text style={styles.artistName} numberOfLines={1}>
+          {item.artist.name}
+        </Text>
       </View>
+      <InfoIcon style={styles.infoIcon} onPress={onInfoPress} />
     </Pressable>
   );
 };
@@ -75,6 +86,9 @@ const styles = StyleSheet.create({
   artistName: {
     fontSize: 16,
     color: 'gray',
+  },
+  infoIcon: {
+    alignSelf: 'center',
   },
 });
 

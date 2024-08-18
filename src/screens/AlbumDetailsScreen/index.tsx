@@ -20,7 +20,7 @@ const AlbumDetailsScreen: FC = () => {
 
   return (
     <View style={styles.container}>
-      <TopNavbar title={'Details'} />
+      <TopNavbar title={'Album details'} />
 
       {error && <Text>{'No album details'}</Text>}
       {isLoading ? (

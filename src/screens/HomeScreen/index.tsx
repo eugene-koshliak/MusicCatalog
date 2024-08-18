@@ -40,6 +40,7 @@ const HomeScreen: FC = () => {
           data={listData}
           keyExtractor={item => item.id}
           renderItem={({item}) => <AlbumItem item={item} />}
+          showsVerticalScrollIndicator={false}
         />
       )}
     </Pressable>
